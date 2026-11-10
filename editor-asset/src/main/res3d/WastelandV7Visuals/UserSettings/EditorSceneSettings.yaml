@@ -1,0 +1,11 @@
+serializedVersion: 2
+sceneOperation:
+  - sceneGuid: dcb08fde-927a-4e09-93c3-43a84eef212c
+    scenePath: Sources/Scenes/WastelandV7Visuals.usda
+    elements:
+      Root:
+        elementId: Root
+        isExpanded: true
+        isLocked: false
+        isFakeLocked: false
+        other: ""

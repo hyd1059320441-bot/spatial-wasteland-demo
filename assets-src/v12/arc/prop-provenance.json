@@ -1,0 +1,78 @@
+{
+  "name": "arc_smg",
+  "source": "/Users/bytedance/.pico/cli/workflow/runs/run-6cd4758a-95b9-47de-b173-495f55e36a64/artifacts/assets/asset_arc_smg-d8a200f16b53/primary.usdz",
+  "sourceSha256": "93a95617cfb9c92dedd36914231ff41f8b2e9b289b00f151ec8c8384b65b6800",
+  "derivative": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/assets-src/v12/arc/arc_smg.usdz",
+  "sha256": "699579a576d7163d5b4d33e970a32460d8196f82ebac2049c302d0d3585bd3e1",
+  "bytes": 4369299,
+  "meshes": [
+    {
+      "path": "/Root/mesh1",
+      "sourceTriangles": 49199,
+      "triangles": 12334,
+      "meshoptError": 0.0029981585685163736
+    }
+  ],
+  "textures": [
+    {
+      "path": "extracted_image_1.jpg_roughness.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_1.jpg_metallic.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_2.jpg",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_0.jpg",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "metersPerUnit": 1,
+  "upAxis": "Y",
+  "bounds": {
+    "min": [
+      -0.37440913915634155,
+      2.5190412998199463e-05,
+      -0.04294567555189133
+    ],
+    "max": [
+      0.37390100955963135,
+      0.2500000298023224,
+      0.042531147599220276
+    ]
+  },
+  "transform": "Preserve authored coordinates, pivot and vertex attributes; simplify indices and downsample textures.",
+  "status": "offline_derivative_pending_visual_and_runtime_review"
+}

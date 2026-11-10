@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "spatialcraft.spatial-3d-generation-input/v1",
+  "mode": "production",
+  "goal": "制作废土矿区射击游戏第三版的一套统一原创手绘工业科幻资产，替换所有旧可见模型。先生成英雄自动步枪、冲锋机械敌人、沙岩与维修站样板，再扩展霰弹枪、炮臂射手、重装精英、矿车、起重机、仓库、反应堆、油桶、补给箱、弹壳与碎片。色彩统一沙岩、锈橙、深铁灰，青色仅用于电力。细致磨损金属、积尘、清晰轮廓、近距离VR细节，避免玩具质感。通过用户已配置的tripo3d引擎生成PBR模型；运行时使用分离机械部件制作动作，不能宣称静态模型已绑骨。统一尘云天空与暖色照明由应用接入。本Run生产并审查可复用资产，不重建Kotlin玩法。",
+  "workspace": {
+    "root": "/Users/bytedance/Documents/ai/spatial-wasteland-demo",
+    "projectPath": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/editor-v3"
+  },
+  "acceptanceCriteria": [
+    {
+      "id": "coherent_v3_assets",
+      "description": "资产具有统一手绘废土工业材质和比例，轮廓清晰，近处枪械细节完整，三类机械敌人可从剪影区分，实际生成结果有视觉证据及可加载产物",
+      "required": true
+    }
+  ],
+  "delivery": {
+    "formats": ["spatial-editor-bundle"],
+    "previews": "required",
+    "packageName": "WastelandV3Assets"
+  },
+  "backendPreference": "editor",
+  "extensions": {
+    "editor.execution": {
+      "preferredMode": "gui",
+      "guiReason": "tool_requires_gui"
+    }
+  }
+}

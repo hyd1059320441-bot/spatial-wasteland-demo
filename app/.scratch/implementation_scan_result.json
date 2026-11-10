@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "scanned": {
+    "kotlin_files": 35,
+    "manifest_files": 1
+  },
+  "container": "STAGE_FULL",
+  "container_evidence": [
+    "manifest pico.spatial.stage.style=3 -> STAGE_FULL"
+  ],
+  "checks": {
+    "root_match": {
+      "passed": true,
+      "failures": [],
+      "evidence": [
+        "Main.kt: default stage root 'DefaultStage'"
+      ]
+    },
+    "entry_wired": {
+      "passed": true,
+      "failures": [],
+      "evidence": {
+        "mainApp": [
+          "Main.kt",
+          "SpatialApplication.kt"
+        ],
+        "launch(::mainApp)": [
+          "SpatialApplication.kt"
+        ],
+        "SpatialLaunchActivity": [
+          "LaunchActivity.kt"
+        ]
+      }
+    },
+    "manifest_consistency": {
+      "passed": true,
+      "failures": [],
+      "evidence": {
+        "stage_manifest": {
+          "pico.spatial.stage.style": [
+            "3"
+          ],
+          "pico.spatial.stage.immersion": [
+            "100"
+          ],
+          "pico.spatial.stage.immersion_min": [
+            "100"
+          ],
+          "pico.spatial.stage.immersion_max": [
+            "100"
+          ]
+        }
+      }
+    },
+    "stage_api_legality": {
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "evidence": [
+        "WastelandScene.kt: AnchorEntity",
+        "WastelandScene.kt: AnchorComponent",
+        "WastelandScene.kt: AnchorTarget",
+        "WastelandScene.kt: AnchorTarget",
+        "WastelandScene.kt: scene.rayCast",
+        "WastelandScene.kt: scene.rayCast",
+        "WastelandScene.kt: scene.rayCast",
+        "WastelandScene.kt: scene.rayCast",
+        "WastelandScene.kt: scene.convexCast",
+        "WastelandScene.kt: scene.convexCast",
+        "WastelandScene.kt: scene.convexCast"
+      ]
+    },
+    "whitelist_components": {
+      "passed": false,
+      "failures": [
+        "malformed spatial import: com.pico.spatial.core.math.",
+        "malformed spatial import: com.pico.spatial.core.ecs.",
+        "malformed spatial import: com.pico.spatial.core.ecs.simulation.",
+        "malformed spatial import: com.pico.spatial.core.ecs.particle.",
+        "malformed spatial import: com.pico.spatial.core.ecs.resource.",
+        "malformed spatial import: com.pico.spatial.tracking.controller."
+      ],
+      "warnings": [
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.Entity",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.ParticleComponent",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.System",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.anchor.AnchorTarget",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.animation.AnimationPlayConfig",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.animation.AnimationPlaybackController",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.particle.",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.AnimationResource",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.Material",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.MaterialCullingMode",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.ShapeResource",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.simulation.",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.Color4",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.EulerAngles",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.Quat",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.Vector3",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.DataProvider.DataListener",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.controller.",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.hmd.HMDTrackingData",
+        "unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.hmd.HMDTrackingProvider"
+      ]
+    },
+    "invented_component_names": {
+      "passed": true,
+      "failures": [],
+      "evidence": {
+        "forbidden_used": []
+      }
+    },
+    "spatialui_component_floor": {
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "evidence": {
+        "used_components": [
+          "Button",
+          "LinearProgressIndicator",
+          "Option",
+          "SpatialView"
+        ],
+        "vocabulary_size": 70,
+        "ui_scale": "patch",
+        "composables": 5,
+        "floor": 1
+      }
+    },
+    "window_chrome_ornaments": {
+      "passed": true,
+      "failures": [],
+      "warnings": [],
+      "evidence": {
+        "has_tabbar": false,
+        "has_toolbar": false,
+        "has_subwindow": false,
+        "manual_edge_overlay": false,
+        "declared_intentional": false
+      }
+    },
+    "root_change_guard": {
+      "passed": true,
+      "failures": [],
+      "warnings": [
+        "AndroidManifest.xml has no committed baseline; guard skipped"
+      ],
+      "evidence": {}
+    }
+  },
+  "failures_or_explicit_none": [
+    "[whitelist_components] malformed spatial import: com.pico.spatial.core.math.",
+    "[whitelist_components] malformed spatial import: com.pico.spatial.core.ecs.",
+    "[whitelist_components] malformed spatial import: com.pico.spatial.core.ecs.simulation.",
+    "[whitelist_components] malformed spatial import: com.pico.spatial.core.ecs.particle.",
+    "[whitelist_components] malformed spatial import: com.pico.spatial.core.ecs.resource.",
+    "[whitelist_components] malformed spatial import: com.pico.spatial.tracking.controller."
+  ],
+  "warnings_or_explicit_none": [
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.Entity",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.ParticleComponent",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.System",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.anchor.AnchorTarget",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.animation.AnimationPlayConfig",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.animation.AnimationPlaybackController",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.particle.",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.AnimationResource",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.Material",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.MaterialCullingMode",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.resource.ShapeResource",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.ecs.simulation.",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.Color4",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.EulerAngles",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.Quat",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.core.math.Vector3",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.DataProvider.DataListener",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.controller.",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.hmd.HMDTrackingData",
+    "[whitelist_components] unrecognized spatial import (verify against whitelist): com.pico.spatial.tracking.hmd.HMDTrackingProvider",
+    "[root_change_guard] AndroidManifest.xml has no committed baseline; guard skipped"
+  ],
+  "passed": false
+}

@@ -1,0 +1,141 @@
+#usda 1.0
+(
+    customLayerData = {
+        string Copyright = "Copyright 2022 - 2024 PICO. All rights reserved."
+        string RuntimeVersion = "Runtime V6.1.0.0.rls.25"
+        string Version = "Spatial Editor V6.1.8"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "CargoCoverV4" (
+        prepend references = @../AI-Asset/CargoCoverV4.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (5, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "PowerRelayV4" (
+        prepend references = @../AI-Asset/PowerRelayV4.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-4, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "RepairBayV4" (
+        prepend references = @../AI-Asset/RepairBayV4_2.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def Cube "RelayEnergyStrip0" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+        rel material:binding = </Root/RelayEnergyStrip0/DefaultMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double size = 0.20000000298023224
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.2, 2.6, 0.09)
+        float3 xformOp:translate = (-4.48, 1.05, 0.64)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial" (
+            customData = {
+                bool applyToneMapping = 1
+                string blendingMode = "ADD"
+                string cullingMode = "BACK"
+                bool depthTest = 1
+                bool depthWrite = 1
+                string materialType = "SHADER_GRAPH"
+                float opacityThreshold = 0
+                string shaderGraphGuid = "d9e996d9-5c3f-49a4-b2bb-faae0573a08c"
+            }
+        )
+        {
+            token outputs:mtlx:surface.connect = </Root/RelayEnergyStrip0/DefaultMaterial/PreviewSurface.outputs:out>
+            token outputs:spatial:vertex
+            float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                color3f inputs:diffuseColor = (0.04, 0.68, 0.95)
+                float inputs:diffuseOpacity = 1
+                color3f inputs:emissiveColor = (0.04, 0.68, 0.95)
+                float inputs:emissiveIntensity = 1.2
+                float inputs:metallic = 0
+                float inputs:opacityThreshold = 0
+                float inputs:roughness = 0.2
+                token outputs:out
+                float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                int ui:nodegraph:node:stackingOrder = 15
+            }
+        }
+    }
+
+    def Cube "RelayEnergyStrip1" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+        rel material:binding = </Root/RelayEnergyStrip1/DefaultMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double size = 0.20000000298023224
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.2, 2.6, 0.09)
+        float3 xformOp:translate = (-3.52, 1.05, 0.64)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial" (
+            customData = {
+                bool applyToneMapping = 1
+                string blendingMode = "ADD"
+                string cullingMode = "BACK"
+                bool depthTest = 1
+                bool depthWrite = 1
+                string materialType = "SHADER_GRAPH"
+                float opacityThreshold = 0
+                string shaderGraphGuid = "e978ab92-024d-4f0c-9050-5b5dda172924"
+            }
+        )
+        {
+            token outputs:mtlx:surface.connect = </Root/RelayEnergyStrip1/DefaultMaterial/PreviewSurface.outputs:out>
+            token outputs:spatial:vertex
+            float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+            def Shader "PreviewSurface"
+            {
+                uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                color3f inputs:diffuseColor = (0.04, 0.68, 0.95)
+                float inputs:diffuseOpacity = 1
+                color3f inputs:emissiveColor = (0.04, 0.68, 0.95)
+                float inputs:emissiveIntensity = 1.2
+                float inputs:metallic = 0
+                float inputs:opacityThreshold = 0
+                float inputs:roughness = 0.2
+                token outputs:out
+                float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                int ui:nodegraph:node:stackingOrder = 15
+            }
+        }
+    }
+}
+

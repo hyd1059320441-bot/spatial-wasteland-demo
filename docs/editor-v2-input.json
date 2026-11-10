@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "spatialcraft.spatial-3d-generation-input/v1",
+  "mode": "production",
+  "goal": "为现有 Spatial SDK 6.2.6 废弃矿区前哨射击游戏生成原创漫画风资产：一只装甲双足机器人敌人（完整肢体与面部，适于动作）、一把有独立弹匣与枪机的科幻霰弹枪、一台可交互矿区发电机。只生产这些资产及独立可加载模型，不重建已有 Kotlin 场景；使用沙色、橙色、铁灰和青色，适合 PICO 移动 VR。已有 CC0 模块化环境包由应用侧加载。",
+  "workspace": {
+    "root": "/Users/bytedance/Documents/ai/spatial-wasteland-demo",
+    "projectPath": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/editor-assets"
+  },
+  "acceptanceCriteria": [
+    {
+      "id": "usable_original_models",
+      "description": "原创模型轮廓明确、贴图完整、比例与朝向可观测，能导出供现有 SDK Entity 加载的模型或 bundle",
+      "required": true
+    }
+  ],
+  "delivery": {
+    "formats": ["spatial-editor-bundle"],
+    "previews": "required",
+    "packageName": "WastelandV2Assets"
+  },
+  "backendPreference": "editor"
+}

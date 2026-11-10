@@ -1,0 +1,343 @@
+#usda 1.0
+(
+    customLayerData = {
+        string Copyright = "Copyright 2022 - 2024 PICO. All rights reserved."
+        string RuntimeVersion = "Runtime V6.1.0.0.rls.25"
+        string Version = "Spatial Editor V6.1.8"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Cube "McpTestCube" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+        rel material:binding = </Root/McpTestCube/DefaultMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double size = 0.20000000298023224
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (5, 5, 5)
+        float3 xformOp:translate = (0, 0.5, -2)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial" (
+            customData = {
+                string materialType = "PHYSICALLY_BASED"
+            }
+        )
+        {
+            token outputs:surface.connect = </Root/McpTestCube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                token outputs:surface
+            }
+        }
+    }
+
+    def "HeroRifleMeshyVpn" (
+        prepend references = @../AI-Asset/HeroRifleMeshyVpn.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ChargerRobotMeshyVpn" (
+        prepend references = @../AI-Asset/ChargerRobotMeshyVpn.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (2, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "SandstoneRockMeshyVpn" (
+        prepend references = @../AI-Asset/SandstoneRockMeshyVpn.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-2, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "CargoContainerComicV3" (
+        prepend references = @../AI-Asset/CargoContainerComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (8, 1, -12)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "MiningCraneComicV3" (
+        prepend references = @../AI-Asset/MiningCraneComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (16, 1, -4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "RepairStationComicV3" (
+        prepend references = @../AI-Asset/RepairStationComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 1, -4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ShooterRobotComicV3" (
+        prepend references = @../AI-Asset/ShooterRobotComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-12, 1, -4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "GeneratorComicV3" (
+        prepend references = @../AI-Asset/GeneratorComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (2, 1, -12)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "EliteRobotComicV3" (
+        prepend references = @../AI-Asset/EliteRobotComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-6, 1, -4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "WarehouseComicV3" (
+        prepend references = @../AI-Asset/WarehouseComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-18, 1, -12)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ReactorPlantComicV3" (
+        prepend references = @../AI-Asset/ReactorPlantComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-8, 1, -12)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "MiningTruckComicV3" (
+        prepend references = @../AI-Asset/MiningTruckComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (8, 1, -4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "HeroShotgunComicV3" (
+        prepend references = @../AI-Asset/HeroShotgunComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-18, 1, -4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "EnergyBoltComicV3" (
+        prepend references = @../AI-Asset/EnergyBoltComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-8, 1, -20)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "CartridgeComicV3" (
+        prepend references = @../AI-Asset/CartridgeComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-14, 1, -20)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "LootChestComicV3" (
+        prepend references = @../AI-Asset/LootChestComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (20, 1, -12)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "FuelBarrelComicV3" (
+        prepend references = @../AI-Asset/FuelBarrelComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (14, 1, -12)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "HeroRifleComicV3" (
+        prepend references = @../AI-Asset/HeroRifleComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-18, 1, -28)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "SandstoneRockComicV3" (
+        prepend references = @../AI-Asset/SandstoneRockComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-6, 1, -28)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ChargerRobotComicV3" (
+        prepend references = @../AI-Asset/ChargerRobotComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-12, 1, -28)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "RepairBayComicV3" (
+        prepend references = @../AI-Asset/RepairBayComicV3.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (2, 1, -28)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+

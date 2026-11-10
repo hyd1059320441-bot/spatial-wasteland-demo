@@ -1,0 +1,17 @@
+serializedVersion: 2
+sceneOperation:
+  - sceneGuid: d07f0955-0940-493c-87d1-f2104f050dbd
+    scenePath: Sources/Scenes/Hi.usda
+    elements:
+      Root:
+        elementId: Root
+        isExpanded: true
+        isLocked: false
+        isFakeLocked: false
+        other: ""
+      Root/RepairStationComicV3:
+        elementId: Root/RepairStationComicV3
+        isExpanded: true
+        isLocked: false
+        isFakeLocked: false
+        other: ""

@@ -1,0 +1,11 @@
+{
+  "name": "generate_3d_model",
+  "arguments": {
+    "engine": "tripo3d",
+    "prompt": "Isolated original industrial wasteland automatic rifle, complete unobstructed product. Long machined barrel with vented heat shield, angular heavy steel receiver, optical iron sight, ergonomic pistol grip, open trigger guard with trigger, curved detachable magazine, exposed charging bolt, shoulder stock. Hand-painted PBR worn dark iron and dusty sandstone armor, muted rust orange accent stripe, crisp beveled edges and fine scratches. Believable VR close-up mechanical construction. Separate readable mechanical part boundaries, horizontal barrel, no hands, no stand, no scenery.",
+    "face_count": 18000,
+    "pbr": true,
+    "name": "HeroRifle",
+    "entity_name": "HeroRifle"
+  }
+}

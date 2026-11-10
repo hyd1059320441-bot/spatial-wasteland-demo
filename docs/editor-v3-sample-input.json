@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "spatialcraft.spatial-3d-generation-input/v1",
+  "mode": "production",
+  "goal": "通过用户已配置的Pico3D服务中的Tripo P1（default_model=tripo_p1）生成第三版统一美术的第一批三件样板：英雄自动步枪、冲锋机械机器人、不规则层状沙岩。手绘工业废土PBR风格，沙岩、锈橙、深铁灰统一材质；枪械适合近距离VR观察，机器人具备分段机械关节边界。只生成这三件模型，检视实际质量与可用性后再生产其余资产。复用当前样板编辑器，不再新开窗口。",
+  "workspace": {
+    "root": "/Users/bytedance/Documents/ai/spatial-wasteland-demo",
+    "projectPath": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/editor-v3-sample"
+  },
+  "acceptanceCriteria": [
+    {
+      "id": "coherent_sample",
+      "description": "三件原创PBR模型风格一致，枪械具有真实机械轮廓、机器人关节清晰、沙岩呈层状不规则轮廓，存在实际模型及视觉审查证据",
+      "required": true
+    }
+  ],
+  "delivery": {
+    "formats": ["spatial-editor-bundle"],
+    "previews": "required",
+    "packageName": "WastelandV3Sample"
+  },
+  "backendPreference": "editor",
+  "extensions": {
+    "editor.execution": {
+      "preferredMode": "gui",
+      "guiReason": "tool_requires_gui",
+      "modelProvider": "pico3d"
+    }
+  }
+}

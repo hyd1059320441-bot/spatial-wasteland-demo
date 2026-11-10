@@ -1,0 +1,194 @@
+[
+  {
+    "name": "RepairBayV4",
+    "sourceRun": "run-eb7e5cc8-7cff-48ef-9512-5d6136f76c3e",
+    "sourceSha256": "7fd6e544bf99bc806d74592da00db3e02b0a75b74c813a6a3b59f129ecbcce89",
+    "runtimeSha256": "b7663787ddecb1c34761cc9f7338dfee9c859009496bd5a5c630d8d5e60bdbaf",
+    "triangles": 47718,
+    "units": "meters",
+    "upAxis": "Y",
+    "textures": [
+      {
+        "file": "extracted_image_1.jpg_roughness.png",
+        "sourceSha256": "5b1e8eb1038d4d7bdf958a59850e3e51b3718ea0e59ff1c77144d9bed2a69475",
+        "sha256": "1c96a3da811720f88bdce96f95f0751db2498d7fb063c49d70924bc844c5e351",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "file": "extracted_image_1.jpg_metallic.png",
+        "sourceSha256": "52c4e1fdc08d6c81bb54a6d154115f6abffcb0deccc7928061de66597b801133",
+        "sha256": "9374fef0286b0f6b752d7f2ce12472a516e4426a3fd33e37aa9c53aa244e69da",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "file": "extracted_image_2.jpg",
+        "sourceSha256": "0ba5b9c6e48559c03d9c7079955c5293423d6d10661b54fcb440af1e7c911428",
+        "sha256": "a0b6d99851251ac90e3ceceb89910ff4bf31212f0c23ff8ae318c54cf2f93f09",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "file": "extracted_image_0.jpg",
+        "sourceSha256": "02a9dde791fd0d88f9054bc0b2f2ffde45aa708c1afaf120e27bc93679986360",
+        "sha256": "e91733174271e4e33e2207ea3259f21181e7ec0157d88af7e198b9c6c853a505",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "transform": "Only texture downsampling; geometry, topology, pivot and USD metadata retained."
+  },
+  {
+    "name": "CargoCoverV4",
+    "sourceRun": "run-eb7e5cc8-7cff-48ef-9512-5d6136f76c3e",
+    "sourceSha256": "28a9ee753ec1846bb32f63cc715a283b7fb77da5db4a05a917d1266e2b00d4cf",
+    "runtimeSha256": "5a30d8f417fbc7d1d7136273a6087ec5f8b20119f62cc477a61ebfbc09196e51",
+    "triangles": 42800,
+    "units": "meters",
+    "upAxis": "Y",
+    "textures": [
+      {
+        "file": "extracted_image_1.jpg_roughness.png",
+        "sourceSha256": "ce85f8c10d17cbcebfa7d523303270cdc41deb32b7d95775454435fb4cbeaf44",
+        "sha256": "e09d2104008f258da494f39e807b414496052c4b73610ed70328190878000b9e",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "file": "extracted_image_1.jpg_metallic.png",
+        "sourceSha256": "93e7d289ec5ec12feabd6e406ba694221046893d92ad59d8ae8d8fc38fc5ba4e",
+        "sha256": "b7cd071940f0d323a8f8081900338bc5859c1501f5640b548aa84ba8d71f2121",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "file": "extracted_image_2.jpg",
+        "sourceSha256": "aaa5847c704f3ee8fa3b3a989c8a8bd5bf6a22652557fca6d34cd8d9d013b2fd",
+        "sha256": "b4ad1741ca3bc9ef2370b906808fd5a7dee5913d7ac95a6f36be102904d39614",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "file": "extracted_image_0.jpg",
+        "sourceSha256": "a6ad6cc89128fc9ce84a2682769da0aa7efd0729f910df8a58a35a7b54086703",
+        "sha256": "23fdbc7696355be0853698918b8ed3615a88aa96baa6da330cd552955f51d675",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "transform": "Only texture downsampling; geometry, topology, pivot and USD metadata retained."
+  },
+  {
+    "name": "PowerRelayV4",
+    "sourceRun": "run-eb7e5cc8-7cff-48ef-9512-5d6136f76c3e",
+    "sourceSha256": "3faa41da35556c15eb8ddcdc45eae67d2f6bbc1215683b10bb7920d070fffc6d",
+    "runtimeSha256": "00c69e30519b07504e476cd71fa63fa4a5aa6149808b00efc745c90416ed415f",
+    "triangles": 45882,
+    "units": "meters",
+    "upAxis": "Y",
+    "textures": [
+      {
+        "file": "extracted_image_1.jpg_roughness.png",
+        "sourceSha256": "d939293c92bc1ba251637568575019fb898e6e9e00f02d7cbb445c6ec2123a5b",
+        "sha256": "b141544a7f775ab606a61b5576c4986cba86ba8f083328a67a91822bfd96a84e",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "file": "extracted_image_1.jpg_metallic.png",
+        "sourceSha256": "bd9b5f7740227caecd987d99a588dc6599d1057d960f700aff77c41cab6ef467",
+        "sha256": "6ae6c3bbda73fd7f96cf93c607fde2101dc277c3b4bba5f86615e91cacf3e88d",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "file": "extracted_image_2.jpg",
+        "sourceSha256": "6c48f6b3ff97d0c8854b31266dc3a33c1f8bcdf958205258f63eb1ff636940df",
+        "sha256": "9aafd44eedf4155abb9b5d20f09d12e695637ae084199aa0ce6753caa3017cba",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "file": "extracted_image_0.jpg",
+        "sourceSha256": "e10f04d512237418753358ed11e6e060fe394057b0f97b91546b8bad70b2e00a",
+        "sha256": "5f9f92afd7e25b62af87777ba7d43db8cc8179605667aa88633d02f6816a7e89",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "transform": "Only texture downsampling; geometry, topology, pivot and USD metadata retained."
+  }
+]

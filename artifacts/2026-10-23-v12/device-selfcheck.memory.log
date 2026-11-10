@@ -1,0 +1,63 @@
+elapsed=0.0s pid=17433
+Applications Memory Usage (in Kilobytes):
+Uptime: 91791185 Realtime: 91791185
+
+** MEMINFO in pid 17433 [com.pico.demo.wasteland] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    14835    14728       28       33    17408    13136     6548     1990
+  Dalvik Heap      953      440       12       73     4668     9935     1743     8192
+ Dalvik Other     4952     4452        0        4     6200                           
+        Stack      316      316        0        0      328                           
+       Ashmem        7        0        0        0      584                           
+    Other dev       20        4       16        0      392                           
+     .so mmap      338       92        0        5    25076                           
+    .jar mmap     1086        0      156        0    41516                           
+    .apk mmap    29486    29468        0        0    29656                           
+    .dex mmap        9        0        0        0      772                           
+    .oat mmap       25        0        0        0     2156                           
+    .art mmap     7255     6972       72       69    16816                           
+   Other mmap       80        4        0        0     1028                           
+GPUMEM mapped        0        0        0        0        0                           
+      Unknown     2911     1832      824       38     8740                           
+        TOTAL    62495    58308     1108      222   155340    23071     8291    10182
+ 
+** GPUMEM mapped include Gfx dev, Pss/Rss Total = others items(exclude Gfx dev) + GPUMEM mapped **
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     7484                          21484
+         Native Heap:    14728                          17408
+                Code:    30404                         100832
+               Stack:      316                            328
+            Graphics:        0                              0
+       Private Other:     6484
+              System:     3079
+             Unknown:                                   15288
+ 
+           TOTAL PSS:    62495            TOTAL RSS:   155340       TOTAL SWAP PSS:      222
+ 
+** GPUMEM mapped include Gfx dev, Graphics = EGL mtrack + GL mtrack + GPUMEM mapped **
+ 
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:       10        AssetManagers:        0
+       Local Binders:        3        Proxy Binders:       25
+       Parcel memory:        2         Parcel count:        9
+    Death Recipients:        0             WebViews:        0
+ 
+ Native Allocations
+                         Count                       Total(kB)
+                        ------                         ------
+    Other (malloced):      312                             28
+ Other (nonmalloced):       41                             33
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+

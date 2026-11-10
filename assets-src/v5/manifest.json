@@ -1,0 +1,677 @@
+[
+  {
+    "sourceSha256": "afc6888015eb9aec92b8167179ca7651ae2aa2bc24b88ff20613f8ae481b246b",
+    "runtimeSha256": "4748eb1a3c31202a07a123f94b76802a5ace562ea819f79697c5b4b0f26d2b1c",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 41216,
+        "triangles": 14994,
+        "normalizedAppearanceError": 0.0018580545438453555
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -1.5352965593338013,
+        0.0,
+        -1.2197357416152954
+      ],
+      "max": [
+        1.5597584247589111,
+        2.499337911605835,
+        1.2281125783920288
+      ]
+    },
+    "name": "SalvageKioskV5",
+    "sourceRun": "run-d0b0cb70-7d6f-4747-b470-ef6576b616f3",
+    "transform": "Attribute-aware index simplification with original vertex attributes and texture downsampling."
+  },
+  {
+    "sourceSha256": "cde7b1c7e609689af79d261f73ba550763e8fb096c2d64299ea6c7c4e0d6af3e",
+    "runtimeSha256": "ebdbf044928515c10ae1bfa9ba5d11d61eda7edde6fb2998f485165267e167dd",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 50363,
+        "triangles": 9997,
+        "normalizedAppearanceError": 0.005694275256246328
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -0.8205543160438538,
+        0.0009148120880126953,
+        -0.5064905285835266
+      ],
+      "max": [
+        0.819312572479248,
+        1.1994473934173584,
+        0.5055274367332458
+      ]
+    },
+    "name": "PumpStationV5",
+    "sourceRun": "run-d0b0cb70-7d6f-4747-b470-ef6576b616f3",
+    "transform": "Attribute-aware index simplification with original vertex attributes and texture downsampling."
+  },
+  {
+    "sourceSha256": "db6f31b2a8b5528ca8cdc39ff4a6cf4674969a6dc9c608ebf81f94eac88355c1",
+    "runtimeSha256": "557d1622970b89a5322eb1f856a9c217c29236ccfefd4ec936302a8dff0710c6",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 49451,
+        "triangles": 11993,
+        "normalizedAppearanceError": 0.0016913008876144886
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -2.0469930171966553,
+        2.384185791015625e-07,
+        -1.8860851526260376
+      ],
+      "max": [
+        2.0454790592193604,
+        5.0,
+        1.8891104459762573
+      ]
+    },
+    "name": "WaterCommsTowerV5",
+    "sourceRun": "run-d0b0cb70-7d6f-4747-b470-ef6576b616f3",
+    "transform": "Attribute-aware index simplification with original vertex attributes and texture downsampling."
+  },
+  {
+    "sourceSha256": "836f4fa4ea23f11fcb0985311c1597efbef76e26bb3193f9acd3c84dc0a161e4",
+    "runtimeSha256": "6ae2bdbd2c5901742d2ad9e3aaf9df4809b4ca5c0a65450bcecf8f53dcddda74",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 49690,
+        "triangles": 7996,
+        "normalizedAppearanceError": 0.0015818346291780472
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -0.22003664076328278,
+        0.0,
+        -0.09277976304292679
+      ],
+      "max": [
+        0.22001765668392181,
+        0.1999201774597168,
+        0.09055250883102417
+      ]
+    },
+    "name": "SecurityDroneV5",
+    "sourceRun": "run-d0b0cb70-7d6f-4747-b470-ef6576b616f3",
+    "transform": "Attribute-aware index simplification with original vertex attributes and texture downsampling."
+  },
+  {
+    "sourceSha256": "acc08b40fe7bd9cb09d425934ca585736ec010771be84fcd529d2170b312dc68",
+    "runtimeSha256": "f0a96a36560d48117db73805ad058c9c93bd315287e93e80139767adcfede6d9",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 44340,
+        "triangles": 3994,
+        "normalizedAppearanceError": 0.0026739013846963644
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          2048,
+          2048
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -0.33592328429222107,
+        0.0,
+        -0.10575174540281296
+      ],
+      "max": [
+        0.33547115325927734,
+        1.2000000476837158,
+        0.10475409030914307
+      ]
+    },
+    "name": "GuardShieldV5",
+    "sourceRun": "run-d0b0cb70-7d6f-4747-b470-ef6576b616f3",
+    "transform": "Attribute-aware index simplification with original vertex attributes and texture downsampling."
+  },
+  {
+    "sourceSha256": "5a30d8f417fbc7d1d7136273a6087ec5f8b20119f62cc477a61ebfbc09196e51",
+    "runtimeSha256": "5aef483ffaad915f3a37a77f104d09be13bdfb9c1888aa0daae90ff596f39bde",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 42800,
+        "triangles": 7999,
+        "normalizedAppearanceError": 0.003511162241920829
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -2.321197271347046,
+        0.0,
+        -1.2827037572860718
+      ],
+      "max": [
+        2.317047595977783,
+        2.5994834899902344,
+        1.25653076171875
+      ]
+    },
+    "name": "CargoCoverV4",
+    "originalDirectory": "v4",
+    "transform": "Existing authored asset simplified from retained pre-change source."
+  },
+  {
+    "sourceSha256": "b7663787ddecb1c34761cc9f7338dfee9c859009496bd5a5c630d8d5e60bdbaf",
+    "runtimeSha256": "1373db156d6c85ea70167d405342100b263227d5f38f114f100e4ca3040c9cde",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 47718,
+        "triangles": 17990,
+        "normalizedAppearanceError": 0.002440810203552246
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -1.6051294803619385,
+        4.0531158447265625e-05,
+        -1.586927890777588
+      ],
+      "max": [
+        1.6036320924758911,
+        2.996027946472168,
+        1.5851688385009766
+      ]
+    },
+    "name": "RepairBayV4",
+    "originalDirectory": "v4",
+    "transform": "Existing authored asset simplified from retained pre-change source."
+  },
+  {
+    "sourceSha256": "00c69e30519b07504e476cd71fa63fa4a5aa6149808b00efc745c90416ed415f",
+    "runtimeSha256": "19d5f9845c07be92494f8553a7b3226c377b0f370d62981b2266bd9096710efc",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 45882,
+        "triangles": 9973,
+        "normalizedAppearanceError": 0.004255423787981272
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          1024,
+          1024
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -0.7651268243789673,
+        0.0,
+        -0.631527304649353
+      ],
+      "max": [
+        0.765485405921936,
+        1.7999999523162842,
+        0.6310809254646301
+      ]
+    },
+    "name": "PowerRelayV4",
+    "originalDirectory": "v4",
+    "transform": "Existing authored asset simplified from retained pre-change source."
+  },
+  {
+    "sourceSha256": "836214164daefca7fdc0137f1b431c6b5092d355d01a26e5c3005611a3406b99",
+    "runtimeSha256": "1fe102740edd433df202857a6a4a6b216796000e44ffd7e1f20ef9ec116cba0c",
+    "meshes": [
+      {
+        "mesh": "/Root/mesh1",
+        "sourceTriangles": 8257,
+        "triangles": 6000,
+        "normalizedAppearanceError": 0.0019223407143726945
+      }
+    ],
+    "textures": [
+      {
+        "path": "extracted_image_0.jpg",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_metallic.png",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_1.jpg_roughness.png",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "path": "extracted_image_2.jpg",
+        "sourceSize": [
+          512,
+          512
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "metersPerUnit": 1.0,
+    "upAxis": "Y",
+    "bounds": {
+      "min": [
+        -0.8032198548316956,
+        0.0016295015811920166,
+        -0.6567245721817017
+      ],
+      "max": [
+        0.8018057346343994,
+        1.0,
+        0.6559005975723267
+      ]
+    },
+    "name": "SandstoneRockComicV3",
+    "originalDirectory": "v3",
+    "transform": "Existing authored asset simplified from retained pre-change source."
+  }
+]

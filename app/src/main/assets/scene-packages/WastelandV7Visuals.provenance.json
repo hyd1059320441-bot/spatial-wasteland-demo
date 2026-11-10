@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "spatialcraft.editor-pack-provenance/v1",
+  "managed": true,
+  "generatedAt": "2026-10-22T10:09:30.838Z",
+  "bundle": {
+    "path": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/editor-asset/src/main/res3d/WastelandV7Visuals/Build/WastelandV7Visuals.bundle",
+    "digest": {
+      "algorithm": "sha256",
+      "value": "4b557e3c516a3e68046d596cf8cb7c4fff7565e0f8537cb6c10face4b6b4f80c"
+    },
+    "scenesPath": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/editor-asset/src/main/res3d/WastelandV7Visuals/Build/WastelandV7Visuals.scenes.json",
+    "scenesDigest": {
+      "algorithm": "sha256",
+      "value": "5a094a8ae17198730ef59917bf8e4e0f3f83e7d0a55144cddbaaf5155b30bd94"
+    },
+    "entryScene": "Sources/Scenes/WastelandV7Visuals.usda",
+    "sceneCount": 1
+  },
+  "workflow": {
+    "runId": "run-7dd43cfa-1d11-45a5-9242-7e8b53732120",
+    "acceptedRevision": 1,
+    "sceneFingerprint": "95537477aadb79621e37ac3271c1b348e08da80f93d31e37e62c04f65caf13af",
+    "gateProof": {
+      "path": "sidecars/v6/450571a864dd94470a46e41e27fa02e457cf7f365d81c163c3fa2a14bcd5468a.json",
+      "digest": "450571a864dd94470a46e41e27fa02e457cf7f365d81c163c3fa2a14bcd5468a",
+      "bytes": 28703,
+      "mediaType": "application/json"
+    }
+  },
+  "packageGate": {
+    "status": "pass",
+    "sceneManifestWritten": true,
+    "acceptedSceneMatched": true
+  },
+  "warnings": []
+}

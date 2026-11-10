@@ -1,0 +1,917 @@
+[
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Platforms/Platform_Metal.gltf",
+    "sourceSha256": "ca900795e7c1a859a35b60f70ed88975a2853e80d7ae1edc3fb0b4d53eea7e39",
+    "file": "models/outpost/floor.glb",
+    "sha256": "73551f0acb44d7b06ea8714b20f08a0264e1c441530a9c891a3e640f733a3fdd",
+    "images": [
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Platforms/Platform_3Plates.gltf",
+    "sourceSha256": "b7498bf0c89b3508f7b1c7512a60586a02f4a396ecf9d4abc7c4db528e9b7305",
+    "file": "models/outpost/floor_detail.glb",
+    "sha256": "f7df86c84f43ab52a5b397d0e46c0f39be8e4842a10e7320fe3ddd5a9155b47c",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Walls/WallAstra_Straight.gltf",
+    "sourceSha256": "76ca46a4cac44e9c7a0971bdb2d1912f9d5d7e00fe2e8f7ffa488e98856a1368",
+    "file": "models/outpost/wall.glb",
+    "sha256": "5cdfb7620ca132ea054de846707795fc2b0e02aa3a55b4187759555df333a4d9",
+    "images": [
+      {
+        "file": "textures/T_Trim_03_Normal-b2c3238cbe25-1024.png",
+        "sha256": "dd9d3507352e1d0a2da7250520d15cd0fb46fc23a9a1677f865ecfa7eb5f19d9",
+        "sourceSha256": "b2c3238cbe2586e44df0b00179adf85e5b7ac7fed1713ec0b807482245a30738",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_BaseColor-2a15eadbedbc-1024.png",
+        "sha256": "7da0567703d1e23dfb3288fa6ca9c32774690975d5d0c46f25a1fbca5a4bfc6e",
+        "sourceSha256": "2a15eadbedbc928d771ed8f2a7a8c1a16bce89b2836a0ecf34ece7e2fab96769",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_ORM-c57134b5d496-1024.png",
+        "sha256": "a6979db80223d7b9613c64dba4123212ba49e174d4f528493f21672f3a104406",
+        "sourceSha256": "c57134b5d496b39b955a87765ea32b93567b1ab494fe6b890de24c75dcfd6fe4",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Decals-cfd1dfe9d3c8-1024.png",
+        "sha256": "7e4f8243854118bfeb402f7b5e395c60cca8189355469d5dfacd4072a9018c8f",
+        "sourceSha256": "cfd1dfe9d3c86a7f5f9bc2e516d935599a70854090f413a29aec0ced1d6c908a",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_Cables-758a95beccdc-1024.png",
+        "sha256": "a8dde5c2f439a359c9401eff6c0844a66fcaf9ead17def369d2a6407bcff66c3",
+        "sourceSha256": "758a95beccdc9f0621d8b8a283ee2593e04b56f1cd32776165ec85e1568e8eb8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Walls/WallAstra_Straight_Broken.gltf",
+    "sourceSha256": "0143b317a4c1384c949a4266394a97a58f5a6ed7b6cbdb3f2aec45a97d27d018",
+    "file": "models/outpost/wall_broken.glb",
+    "sha256": "44f39b25bdd9515cb54e45d748ae3f38bace312929877b8c032bffff88c5c833",
+    "images": [
+      {
+        "file": "textures/T_Trim_03_Normal-b2c3238cbe25-1024.png",
+        "sha256": "dd9d3507352e1d0a2da7250520d15cd0fb46fc23a9a1677f865ecfa7eb5f19d9",
+        "sourceSha256": "b2c3238cbe2586e44df0b00179adf85e5b7ac7fed1713ec0b807482245a30738",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_BaseColor-2a15eadbedbc-1024.png",
+        "sha256": "7da0567703d1e23dfb3288fa6ca9c32774690975d5d0c46f25a1fbca5a4bfc6e",
+        "sourceSha256": "2a15eadbedbc928d771ed8f2a7a8c1a16bce89b2836a0ecf34ece7e2fab96769",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_ORM-c57134b5d496-1024.png",
+        "sha256": "a6979db80223d7b9613c64dba4123212ba49e174d4f528493f21672f3a104406",
+        "sourceSha256": "c57134b5d496b39b955a87765ea32b93567b1ab494fe6b890de24c75dcfd6fe4",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Decals-cfd1dfe9d3c8-1024.png",
+        "sha256": "7e4f8243854118bfeb402f7b5e395c60cca8189355469d5dfacd4072a9018c8f",
+        "sourceSha256": "cfd1dfe9d3c86a7f5f9bc2e516d935599a70854090f413a29aec0ced1d6c908a",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_Cables-758a95beccdc-1024.png",
+        "sha256": "a8dde5c2f439a359c9401eff6c0844a66fcaf9ead17def369d2a6407bcff66c3",
+        "sourceSha256": "758a95beccdc9f0621d8b8a283ee2593e04b56f1cd32776165ec85e1568e8eb8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Walls/WallAstra_Straight_Window.gltf",
+    "sourceSha256": "e6801442d6961b72087d216b9024e2c056cb2d6b975450aeddda23662a40475f",
+    "file": "models/outpost/wall_window.glb",
+    "sha256": "86434c6e389da7dd02ecfe5782a2f7388d2d9a5f8d912b5cd2bbdbda5fc0cd42",
+    "images": [
+      {
+        "file": "textures/T_Trim_03_Normal-b2c3238cbe25-1024.png",
+        "sha256": "dd9d3507352e1d0a2da7250520d15cd0fb46fc23a9a1677f865ecfa7eb5f19d9",
+        "sourceSha256": "b2c3238cbe2586e44df0b00179adf85e5b7ac7fed1713ec0b807482245a30738",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_BaseColor-2a15eadbedbc-1024.png",
+        "sha256": "7da0567703d1e23dfb3288fa6ca9c32774690975d5d0c46f25a1fbca5a4bfc6e",
+        "sourceSha256": "2a15eadbedbc928d771ed8f2a7a8c1a16bce89b2836a0ecf34ece7e2fab96769",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_ORM-c57134b5d496-1024.png",
+        "sha256": "a6979db80223d7b9613c64dba4123212ba49e174d4f528493f21672f3a104406",
+        "sourceSha256": "c57134b5d496b39b955a87765ea32b93567b1ab494fe6b890de24c75dcfd6fe4",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_Cables-758a95beccdc-1024.png",
+        "sha256": "a8dde5c2f439a359c9401eff6c0844a66fcaf9ead17def369d2a6407bcff66c3",
+        "sourceSha256": "758a95beccdc9f0621d8b8a283ee2593e04b56f1cd32776165ec85e1568e8eb8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Platforms/Platform_DarkPlates.gltf",
+    "sourceSha256": "1fb445848b118fcda47b9c8c4ecd5c25d0120c4633877a0204564b285d3b262b",
+    "file": "models/outpost/roof.glb",
+    "sha256": "3dd9f4c66c65609e388be4ce489749084071a067ddf65f8ff22e4ddffc20999a",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Platforms/Door_Frame_SquareTall.gltf",
+    "sourceSha256": "f1251e11edcef8ecb5e186b4868304c618cfa34bb9ae9d4f643bab07240bb15d",
+    "file": "models/outpost/door_frame.glb",
+    "sha256": "79addb3d419171d3e82e6a324e6d2226a9e75fceef3492042ad0d76ead8cbd44",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Platforms/Door_Metal.gltf",
+    "sourceSha256": "bca8e81ab0237c99ac5a74b73a975a12cbfaec35f60600d300b108aa61c6b13c",
+    "file": "models/outpost/door.glb",
+    "sha256": "9f7673ff1b7d0afca96fa5be6015b01b0dedc66456118e25daa7d5367179476f",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Columns/Column_MetalSupport.gltf",
+    "sourceSha256": "749f009007a20928a0f2596e19e79d4dcdd79f9545bcfd48b7dfaf602521c405",
+    "file": "models/outpost/column.glb",
+    "sha256": "66fedb93a965c7bcb9583eb904a648122046c6a33d5fc10200126a2db4b189b4",
+    "images": [
+      {
+        "file": "textures/T_PaddedWall_Normal-141c075ee32a-1024.png",
+        "sha256": "62df9ec982f7b37bdc8b4b62a25ae4d52f46ed271b08f02f77be11328a37c054",
+        "sourceSha256": "141c075ee32a4dda83c4b954076ea563b86e2a6329d5c536aa7ddccb6c1328bf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_PaddedWall_BaseColor-7b431c76896c-1024.png",
+        "sha256": "da15722623653b2a5e008ce0754f0c50e5383495f24f65e594d950491850b6e8",
+        "sourceSha256": "7b431c76896c8d2de736e33271049fc869f2a8a5c0632678c9f030146e90c650",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_PaddedWall_ORM-555039f51a71-1024.png",
+        "sha256": "5f83ee1701062da3520ab410656624332e9d31b31dba8a05db1ec1b7e4c9f3f3",
+        "sourceSha256": "555039f51a71803be3d617ac03eac05e840ec5b36c269de2115a50e956bff3b2",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Columns/Column_Pipes.gltf",
+    "sourceSha256": "7b5a852e82ae98fdb717a878372b1fa70a4efedc354ad9ac8cc106171d7e97b5",
+    "file": "models/outpost/pipes.glb",
+    "sha256": "301698d373079298ecf83f15ef5f399fa40843fc0c822f2b99116d9c9c05fc3c",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_PaddedWall_Normal-141c075ee32a-1024.png",
+        "sha256": "62df9ec982f7b37bdc8b4b62a25ae4d52f46ed271b08f02f77be11328a37c054",
+        "sourceSha256": "141c075ee32a4dda83c4b954076ea563b86e2a6329d5c536aa7ddccb6c1328bf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_PaddedWall_BaseColor-7b431c76896c-1024.png",
+        "sha256": "da15722623653b2a5e008ce0754f0c50e5383495f24f65e594d950491850b6e8",
+        "sourceSha256": "7b431c76896c8d2de736e33271049fc869f2a8a5c0632678c9f030146e90c650",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_PaddedWall_ORM-555039f51a71-1024.png",
+        "sha256": "5f83ee1701062da3520ab410656624332e9d31b31dba8a05db1ec1b7e4c9f3f3",
+        "sourceSha256": "555039f51a71803be3d617ac03eac05e840ec5b36c269de2115a50e956bff3b2",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Vent_Big.gltf",
+    "sourceSha256": "4adeab6bee9068ec96f60ec5395693568dd996bc26cda02d77509f9bc0960e3e",
+    "file": "models/outpost/vent.glb",
+    "sha256": "997342664e90a7dc7e46735d7e8797116fdf9b9efcb3756528574a4035fbdbf2",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Computer.gltf",
+    "sourceSha256": "724525353d0c24a0596f77d5d461bd3cf58685e6e2c3abc1b5df3141759912f4",
+    "file": "models/outpost/computer.glb",
+    "sha256": "99547b0f74aa3e493c068532db3111ce99bf2ec344bb927c0fc298a081162142",
+    "images": [
+      {
+        "file": "textures/T_Decals-cfd1dfe9d3c8-1024.png",
+        "sha256": "7e4f8243854118bfeb402f7b5e395c60cca8189355469d5dfacd4072a9018c8f",
+        "sourceSha256": "cfd1dfe9d3c86a7f5f9bc2e516d935599a70854090f413a29aec0ced1d6c908a",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_AccessPoint.gltf",
+    "sourceSha256": "23281aebdf5904403c71217c5ca45c4e901b978b452ddfba9e968fd01b0aac77",
+    "file": "models/outpost/terminal.glb",
+    "sha256": "e25acb3a63b49e6f1ad670afc45593d3c456c9b5efb9cdbffaaf1fd676b0ff3b",
+    "images": [
+      {
+        "file": "textures/T_Decals-cfd1dfe9d3c8-1024.png",
+        "sha256": "7e4f8243854118bfeb402f7b5e395c60cca8189355469d5dfacd4072a9018c8f",
+        "sourceSha256": "cfd1dfe9d3c86a7f5f9bc2e516d935599a70854090f413a29aec0ced1d6c908a",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Chest.gltf",
+    "sourceSha256": "94642289dbe56dd98215e31c617791b1974628d9e3f9369868693acd3467cf38",
+    "file": "models/outpost/chest.glb",
+    "sha256": "e4df68aa25972c303d0c959f7d1e85d647c079365404253fddfa783cc53891e4",
+    "images": [
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [
+      "Chest_Close",
+      "Chest_Idle_Closed",
+      "Chest_Idle_Open",
+      "Chest_Open"
+    ],
+    "skins": 1,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Barrel_Large.gltf",
+    "sourceSha256": "b8655db69eef6db7718f2dcf0ab341d717f0306196449433958b055e87766093",
+    "file": "models/outpost/barrel.glb",
+    "sha256": "02d11e9949760876f3b271d6ec1edb2b791ba36fb475aea88bd49a9e680e73a5",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Crate3.gltf",
+    "sourceSha256": "1ab1b25afaff0eea9b9112469d8ab252d341ac6a92bf0e9b16af1d518bdfe724",
+    "file": "models/outpost/crate.glb",
+    "sha256": "ce5da196a0b636592c36c8d0ca8d1ab7a8f3b91207e5d17b92ed52ccb63106b9",
+    "images": [
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Crate4.gltf",
+    "sourceSha256": "a02ff58ba6f83e4a0550459b17bc5cdc22e36da3a6ec9f07677b22838e008e22",
+    "file": "models/outpost/crate_tall.glb",
+    "sha256": "5b5057a088293d3192bdd7ed7ca0f2006bd5092a31ffe23a586c3e829192ba0f",
+    "images": [
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Light_Wide.gltf",
+    "sourceSha256": "bad2b6ffc330aaa185700edb7487f4c8315291fd23d834844f68d6c1695fff40",
+    "file": "models/outpost/light.glb",
+    "sha256": "f12b148b85222db03be88bc848c7ba2c55c60b6261dcb391fdb291c4ac77e0ce",
+    "images": [
+      {
+        "file": "textures/T_Trim_01_Normal-1aec7ad47a64-1024.png",
+        "sha256": "aa7253c44580b38827c63d41849ab5534bd1b54d0d694a2ecc44a5539b272569",
+        "sourceSha256": "1aec7ad47a642fc68216b5a3119341b7dca038c1fc9493df8a15ad4aa27ddbcf",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_BaseColor_Red-15fc0e344ed3-1024.png",
+        "sha256": "408eaab54f74c2b53e64a1d89c853b7b752892de072895b587d96ffa3021a5b3",
+        "sourceSha256": "15fc0e344ed35483bc771aaa95c1c2a0b0ec2349a893cf24af18b8742f0842ac",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_01_ORM-6ab7ad231df2-1024.png",
+        "sha256": "10bb00c7c5a22fca9a223c81fec497fac95666bb7251bad9f7694b80ba5d08fb",
+        "sourceSha256": "6ab7ad231df22867652048ebfd602684a9072d45c483ca57df0fcd4cb2cb4feb",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Cable_3.gltf",
+    "sourceSha256": "188197d1d0cb93daa001b326babbbe9af8936b1337585109f3ee21359862fecd",
+    "file": "models/outpost/cable.glb",
+    "sha256": "4c58574570786a0a1cb1b8e6398129fa48c9043b944b4f7b63a74e2ff9ce070e",
+    "images": [
+      {
+        "file": "textures/T_Trim_03_Normal-b2c3238cbe25-1024.png",
+        "sha256": "dd9d3507352e1d0a2da7250520d15cd0fb46fc23a9a1677f865ecfa7eb5f19d9",
+        "sourceSha256": "b2c3238cbe2586e44df0b00179adf85e5b7ac7fed1713ec0b807482245a30738",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_Cables-758a95beccdc-1024.png",
+        "sha256": "a8dde5c2f439a359c9401eff6c0844a66fcaf9ead17def369d2a6407bcff66c3",
+        "sourceSha256": "758a95beccdc9f0621d8b8a283ee2593e04b56f1cd32776165ec85e1568e8eb8",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_03_ORM-c57134b5d496-1024.png",
+        "sha256": "a6979db80223d7b9613c64dba4123212ba49e174d4f528493f21672f3a104406",
+        "sourceSha256": "c57134b5d496b39b955a87765ea32b93567b1ab494fe6b890de24c75dcfd6fe4",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "source": "assets-src/quaternius/environment/Modular SciFi MegaKit[Standard]/glTF/Props/Prop_Rail_4.gltf",
+    "sourceSha256": "8796d4c1b50fb0f7b86d59825af3f98de2c9bce2a65ce25cd01712f3f5efc971",
+    "file": "models/outpost/rail.glb",
+    "sha256": "83abc1e1a1d73b8c3753067d42527ddc23f899ed4f91131003ba1fe5ddb38ef7",
+    "images": [
+      {
+        "file": "textures/T_Trim_02_Normal-7faaa7059192-1024.png",
+        "sha256": "445ca41e7bfe5c70655e9e188ae99858819e8fb0fc2da00690d6cb35e389db9f",
+        "sourceSha256": "7faaa7059192f43aded9cc2f93917dd54fd14545509c37318d4e6bf0a8104960",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_BaseColor_Red-4a08abf8dc0a-1024.png",
+        "sha256": "31f8404c9fecb2701169632e0e796bafea7e4e24f2b82556dcb83a3040b75eef",
+        "sourceSha256": "4a08abf8dc0a5bf558a0ae38dc0d70eddc328eaa8060725d07b95d7c8a75663c",
+        "transform": "sips max dimension 1024"
+      },
+      {
+        "file": "textures/T_Trim_02_ORM-2a433e6a7fbc-1024.png",
+        "sha256": "2a934d7b40fdfad21ec2eb6b957f64dd2fb6bf335c1c0cfe406c7ee999bdcbfd",
+        "sourceSha256": "2a433e6a7fbcec375b5c5e5c7aa57dbe1fd23ca6592f48c52d09dde2d622aab8",
+        "transform": "sips max dimension 1024"
+      }
+    ],
+    "animations": [],
+    "skins": 0,
+    "units": "meters",
+    "upAxis": "Y"
+  },
+  {
+    "file": "models/outpost/robot.glb",
+    "source": "assets-src/quaternius/robot-expressive.glb",
+    "sha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+    "sourceSha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+    "animations": [
+      "Dance",
+      "Death",
+      "Idle",
+      "Jump",
+      "No",
+      "Punch",
+      "Running",
+      "Sitting",
+      "Standing",
+      "ThumbsUp",
+      "Walking",
+      "WalkJump",
+      "Wave",
+      "Yes"
+    ],
+    "skins": 2,
+    "units": "meters",
+    "upAxis": "Y",
+    "license": "CC0"
+  },
+  {
+    "file": "models/blaster-d.glb",
+    "source": "Models/GLB format/blaster-d.glb",
+    "sha256": "c05bf6af6cded1bc76e32e455507f5d1a21cd58503ce66de33ca39e597b28280",
+    "license": "CC0",
+    "units": "meters",
+    "upAxis": "Y"
+  }
+]

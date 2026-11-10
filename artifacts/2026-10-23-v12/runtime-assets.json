@@ -1,0 +1,50 @@
+{
+  "apkSha256": "b3eeafa59253fc222cbbfdfe24e999483234acc09e90c4e77837ae1870a46985",
+  "assets": [
+    {
+      "path": "models/v12/ElitePurpleGold.glb",
+      "bytes": 6566428,
+      "sha256": "8af975657cbbd73eb6831e1be6469ae48926ecdfa0b2bfd944954b4e821ba40e"
+    },
+    {
+      "path": "models/v12/arc_smg.usdz",
+      "bytes": 4369299,
+      "sha256": "699579a576d7163d5b4d33e970a32460d8196f82ebac2049c302d0d3585bd3e1"
+    },
+    {
+      "path": "models/v12/plasma_cannon.usdz",
+      "bytes": 4497214,
+      "sha256": "3232788d3bc1ccd22b56ba984946642579bb44bcc0e3356061ae5850047bda27"
+    },
+    {
+      "path": "models/v12/rail_sniper.usdz",
+      "bytes": 4483430,
+      "sha256": "1f851b2f021030d8118e4f11121a18b04dc8f3edbb0597c2dc39607eb3268339"
+    },
+    {
+      "path": "audio/arc.wav",
+      "bytes": 5776,
+      "sha256": "2d88cf1b83280cf4992ba8edbb17cdf019a9af1a10e4a02ad05bb25b349cac73"
+    },
+    {
+      "path": "audio/rail.wav",
+      "bytes": 22094,
+      "sha256": "fe18d5c7956655fc39cb88c32ffb58ef1a15a6bf125b0d1e901cf062519bf06b"
+    },
+    {
+      "path": "audio/plasma.wav",
+      "bytes": 18566,
+      "sha256": "3ec909a4fe9ab6f802c94ff7f342be714c4fbea0ed86d468ec963d13fe2f905d"
+    },
+    {
+      "path": "audio/plasma_impact.wav",
+      "bytes": 24298,
+      "sha256": "0f50b331a2983f5810ec5a3955bdc753ac2e3c7bf71c3ae32a48d335e6943064"
+    },
+    {
+      "path": "audio/pickup.wav",
+      "bytes": 15920,
+      "sha256": "629f73334a38e306c366a314083908765a574bb2ffb087d89ca17aa9c9f25dbc"
+    }
+  ]
+}

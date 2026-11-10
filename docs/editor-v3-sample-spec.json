@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "spatialcraft.scene-generation-spec/v2",
+  "sceneId": "WastelandV3Sample",
+  "name": "废土矿区第三版三件样板",
+  "objective": "使用Tripo3D生成和检视自动步枪、冲锋机器人及沙岩这三件统一手绘工业废土PBR样板，供现有Spatial SDK 6.2.6游戏使用。",
+  "coordinateSystem": {"handedness": "right", "upAxis": "Y", "unitsPerMeter": 1},
+  "modelGeneration": "allowed",
+  "subjects": [
+    {
+      "id": "HeroRifle", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "英雄自动步枪，清晰枪身、弹匣、枪机、扳机护圈与枪口，近距离磨损细节。",
+      "generationPrompt": "Isolated original industrial wasteland automatic rifle, complete unobstructed product. Long machined barrel with vented heat shield, angular heavy steel receiver, optical iron sight, ergonomic pistol grip, open trigger guard with trigger, curved detachable magazine, exposed charging bolt, shoulder stock. Hand-painted PBR worn dark iron and dusty sandstone armor, muted rust orange accent stripe, crisp beveled edges and fine scratches. Believable VR close-up mechanical construction. Separate readable mechanical part boundaries, horizontal barrel, no hands, no stand, no scenery."
+    },
+    {
+      "id": "ChargerRobot", "kind": "character", "authoringStrategy": "generated-model", "count": 1,
+      "description": "前倾窄剪影冲锋机器人，分段机械双腿、头部传感器及近战执行器。",
+      "generationPrompt": "Isolated complete original biped industrial wasteland assault robot, lean forward-leaning silhouette, segmented long mechanical legs and broad grounded feet, compact armored torso, distinct rotating neck and angular sensor head, two mechanical arms with articulated elbows and short hydraulic striking claws. Neutral relaxed A pose, clear gaps at shoulder elbow hip knee joints for rigid-part animation. Hand-painted PBR dusty sandstone plates, worn dark iron joints, rust orange markings, small amber sensor. Detailed pistons, cables and scratches, solid believable machinery, no pedestal or environment."
+    },
+    {
+      "id": "SandstoneRock", "kind": "environment", "authoringStrategy": "generated-model", "count": 1,
+      "description": "不规则层状沙岩，可复用为矿区岩壁与掩体，底面平稳。",
+      "generationPrompt": "Isolated irregular weathered sandstone rock formation with stable flat bottom, chunky layered sedimentary silhouette, fractured overhangs, eroded ridges and deep crevices. Hand-painted PBR warm ochre sandstone, dusty sienna shadows, pale chipped edges, subtle dark mineral seams. Cohesive stylized industrial wasteland game art with grounded weight and detailed surface, modest optimized geometry, complete object, no terrain patch, no vegetation, no buildings, no pedestal."
+    }
+  ],
+  "composition": {
+    "description": "三件独立样板分开展示，完整可检视、互不遮挡。统一手绘PBR风格，机械零件边界在近距离可辨。",
+    "relationships": ["三件样板的色调、磨损程度及材质细节密度相匹配"]
+  }
+}

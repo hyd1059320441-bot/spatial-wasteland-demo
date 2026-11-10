@@ -1,0 +1,56 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+.DS_Store
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Local asset inspection environment
+.tools/
+__pycache__/
+
+# Local tool state and transient credentials
+.kotlin/
+.pico/
+.trae/
+.dbg/
+.pico-env.json
+.env
+.env.*
+credentials.json
+auth.json
+token.json
+.venv*/
+node_modules/
+.CacheData/
+
+# Delivery APKs are stored in GitHub Releases.
+# The verified V12 delivery evidence is tracked explicitly.

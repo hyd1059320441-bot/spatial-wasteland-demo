@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pico.demo.wasteland.platform.ExitFlowTest" tests="3" failures="0" errors="0" skipped="0" time="32.324" timestamp="2026-10-23T08:18:27" hostname="localhost">
+  <properties>
+    <property name="device" value="B3110 - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="menuAndExitSurviveRepeatedStageCreationAndDisposeAllSceneResources" classname="com.pico.demo.wasteland.platform.ExitFlowTest" time="28.261" />
+  <testcase name="closeDuringLoadingDoesNotWaitForTheEcsCommandQueue" classname="com.pico.demo.wasteland.platform.ExitFlowTest" time="1.659" />
+  <testcase name="iAndYDispatchOnceOnReleaseAndRejectCancelledReleases" classname="com.pico.demo.wasteland.platform.ArsenalKeyTest" time="1.577" />
+</testsuite>

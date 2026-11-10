@@ -1,0 +1,100 @@
+#usda 1.0
+(
+    customLayerData = {
+        string Copyright = "Copyright 2022 - 2024 PICO. All rights reserved."
+        string RuntimeVersion = "Runtime V6.1.0.0.rls.25"
+        string Version = "Spatial Editor V6.1.8"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "SecurityDroneV5" (
+        prepend references = @../AI-Asset/SecurityDroneV5.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 2, 3)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "GuardShieldV5" (
+        prepend references = @../AI-Asset/GuardShieldV5.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-3, 0, 3)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "WaterCommsTowerV5" (
+        prepend references = @../AI-Asset/WaterCommsTowerV5.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (6, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "PumpStationV5" (
+        prepend references = @../AI-Asset/PumpStationV5.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "SalvageKioskV5" (
+        prepend references = @../AI-Asset/SalvageKioskV5.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-6, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def Cube "GallerySupport" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+        rel material:binding = </Root/GallerySupport/DefaultMaterial> (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        double size = 0.20000000298023224
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (100, 1, 50)
+        float3 xformOp:translate = (0, -0.1, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial" (
+            customData = {
+                string materialType = "PHYSICALLY_BASED"
+            }
+        )
+        {
+            token outputs:surface.connect = </Root/GallerySupport/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.3672459, 0.17064512, 0.0592535) (
+                    colorSpace = "lin_srgb"
+                )
+                color3f inputs:diffuseColor.connect = None
+                float inputs:diffuseOpacity = 1
+                token outputs:surface
+            }
+        }
+    }
+}
+

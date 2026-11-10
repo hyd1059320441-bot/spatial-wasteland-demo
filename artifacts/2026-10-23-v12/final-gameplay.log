@@ -1,0 +1,95 @@
+10-23 16:19:20.391 31840 31840 I Wasteland: V8_ROBOT slot=0 kind=CHARGER asset=AssaultRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4422325, y=0.0, z=-0.3854088) max=Vector3(x=0.4422325, y=1.9, z=0.3854089)
+10-23 16:19:20.399 31840 31840 I Wasteland: V6_LOADING elapsedMs=5550 progress=56 phase=配置战斗对象 1 / 18
+10-23 16:19:20.603 31840 31840 I Wasteland: V8_ROBOT slot=1 kind=CHARGER asset=AssaultRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4422325, y=0.0, z=-0.3854088) max=Vector3(x=0.4422325, y=1.9, z=0.3854089)
+10-23 16:19:20.608 31840 31840 I Wasteland: V6_LOADING elapsedMs=5759 progress=57 phase=配置战斗对象 2 / 18
+10-23 16:19:20.812 31840 31840 I Wasteland: V8_ROBOT slot=2 kind=SHOOTER asset=AssaultRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4422325, y=0.0, z=-0.3854088) max=Vector3(x=0.4422325, y=1.9, z=0.3854089)
+10-23 16:19:20.816 31840 31840 I Wasteland: V6_LOADING elapsedMs=5968 progress=58 phase=配置战斗对象 3 / 18
+10-23 16:19:21.021 31840 31840 I Wasteland: V8_ROBOT slot=3 kind=FLANKER asset=AssaultRobotV8 height=1.75 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4073194, y=0.0, z=-0.35498187) max=Vector3(x=0.4073194, y=1.75, z=0.3549818)
+10-23 16:19:21.025 31840 31840 I Wasteland: V6_LOADING elapsedMs=6177 progress=59 phase=配置战斗对象 4 / 18
+10-23 16:19:21.238 31840 31840 I Wasteland: V8_ROBOT slot=4 kind=GUARD asset=ShieldRobotV9 height=2.05 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.5000753, y=0.0, z=-0.5414928) max=Vector3(x=0.5000753, y=2.05, z=0.54149294)
+10-23 16:19:21.244 31840 31840 I Wasteland: V6_LOADING elapsedMs=6395 progress=60 phase=配置战斗对象 5 / 18
+10-23 16:19:21.423 31840 31840 I Wasteland: V8_ROBOT slot=5 kind=SNIPER asset=SniperRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.6662917, y=0.0, z=-0.32468334) max=Vector3(x=0.6662917, y=1.9, z=0.32468322)
+10-23 16:19:21.427 31840 31840 I Wasteland: V6_LOADING elapsedMs=6579 progress=61 phase=配置战斗对象 6 / 18
+10-23 16:19:21.675 31840 31840 I Wasteland: V8_ROBOT slot=6 kind=ELITE asset=HeavyGunnerV9 height=2.1 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.70744, y=0.0, z=-0.5601531) max=Vector3(x=0.70744, y=2.1, z=0.5601531)
+10-23 16:19:21.681 31840 31840 I Wasteland: V6_LOADING elapsedMs=6833 progress=62 phase=配置战斗对象 7 / 18
+10-23 16:19:21.919 31840 31840 I Wasteland: V8_DRONE slot=7 asset=CombatDroneV8 skeletons=0 rotors=3 width=1.4 sensor=upper-front clips=[Idle, Walking, Fire, Death]
+10-23 16:19:21.919 31840 31840 I Wasteland: V6_LOADING elapsedMs=7071 progress=63 phase=配置战斗对象 8 / 18
+10-23 16:19:22.134 31840 31840 I Wasteland: V8_ROBOT slot=8 kind=SHOOTER asset=AssaultRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4422325, y=0.0, z=-0.3854088) max=Vector3(x=0.4422325, y=1.9, z=0.3854089)
+10-23 16:19:22.138 31840 31840 I Wasteland: V6_LOADING elapsedMs=7290 progress=65 phase=配置战斗对象 9 / 18
+10-23 16:19:22.342 31840 31840 I Wasteland: V8_ROBOT slot=9 kind=FLANKER asset=AssaultRobotV8 height=1.75 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4073194, y=0.0, z=-0.35498187) max=Vector3(x=0.4073194, y=1.75, z=0.3549818)
+10-23 16:19:22.347 31840 31840 I Wasteland: V6_LOADING elapsedMs=7498 progress=66 phase=配置战斗对象 10 / 18
+10-23 16:19:22.558 31840 31840 I Wasteland: V8_ROBOT slot=10 kind=GUARD asset=ShieldRobotV9 height=2.05 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.5000753, y=0.0, z=-0.5414928) max=Vector3(x=0.5000753, y=2.05, z=0.54149294)
+10-23 16:19:22.563 31840 31840 I Wasteland: V6_LOADING elapsedMs=7715 progress=67 phase=配置战斗对象 11 / 18
+10-23 16:19:22.740 31840 31840 I Wasteland: V8_ROBOT slot=11 kind=SNIPER asset=SniperRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.6662917, y=0.0, z=-0.32468334) max=Vector3(x=0.6662917, y=1.9, z=0.32468322)
+10-23 16:19:22.745 31840 31840 I Wasteland: V6_LOADING elapsedMs=7896 progress=68 phase=配置战斗对象 12 / 18
+10-23 16:19:22.974 31840 31840 I Wasteland: V8_DRONE slot=12 asset=CombatDroneV8 skeletons=0 rotors=3 width=1.4 sensor=upper-front clips=[Idle, Walking, Fire, Death]
+10-23 16:19:22.975 31840 31840 I Wasteland: V6_LOADING elapsedMs=8126 progress=69 phase=配置战斗对象 13 / 18
+10-23 16:19:23.176 31840 31840 I Wasteland: V8_ROBOT slot=13 kind=CHARGER asset=AssaultRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4422325, y=0.0, z=-0.3854088) max=Vector3(x=0.4422325, y=1.9, z=0.3854089)
+10-23 16:19:23.180 31840 31840 I Wasteland: V6_LOADING elapsedMs=8331 progress=70 phase=配置战斗对象 14 / 18
+10-23 16:19:23.386 31840 31840 I Wasteland: V8_ROBOT slot=14 kind=SHOOTER asset=AssaultRobotV8 height=1.9 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4422325, y=0.0, z=-0.3854088) max=Vector3(x=0.4422325, y=1.9, z=0.3854089)
+10-23 16:19:23.390 31840 31840 I Wasteland: V6_LOADING elapsedMs=8542 progress=71 phase=配置战斗对象 15 / 18
+10-23 16:19:23.592 31840 31840 I Wasteland: V8_ROBOT slot=15 kind=FLANKER asset=AssaultRobotV8 height=1.75 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.4073194, y=0.0, z=-0.35498187) max=Vector3(x=0.4073194, y=1.75, z=0.3549818)
+10-23 16:19:23.596 31840 31840 I Wasteland: V6_LOADING elapsedMs=8748 progress=72 phase=配置战斗对象 16 / 18
+10-23 16:19:23.829 31840 31840 I Wasteland: V8_ROBOT slot=16 kind=GUARD asset=ShieldRobotV9 height=2.05 skeletons=1 clips=[Idle, Walking, Punch, Fire, Death] min=Vector3(x=-0.5000753, y=0.0, z=-0.5414928) max=Vector3(x=0.5000753, y=2.05, z=0.54149294)
+10-23 16:19:23.834 31840 31840 I Wasteland: V6_LOADING elapsedMs=8985 progress=73 phase=配置战斗对象 17 / 18
+10-23 16:19:24.075 31840 31840 I Wasteland: V8_DRONE slot=17 asset=CombatDroneV8 skeletons=0 rotors=3 width=1.4 sensor=upper-front clips=[Idle, Walking, Fire, Death]
+10-23 16:19:24.075 31840 31840 I Wasteland: V6_LOADING elapsedMs=9227 progress=75 phase=配置战斗对象 18 / 18
+10-23 16:19:24.075 31840 31840 I Wasteland: V6_LOAD_PHASE phase=scene_collision durationMs=6234
+10-23 16:19:24.076 31840 31840 I Wasteland: V6_LOADING elapsedMs=9227 progress=75 phase=检查通路与导航缓存
+10-23 16:19:24.283 31840 31840 I Wasteland: NAV_CACHE MISS key=8660cc171be5f27a5c74a3cce00c100edae153ad712b25b590dc35bf77f3912a source=null probes=80
+10-23 16:19:24.330 31840 31840 I Wasteland: V6_LOADING elapsedMs=9482 progress=77 phase=首次采样通路 1
+10-23 16:19:24.352 31840 31840 I Wasteland: V6_LOADING elapsedMs=9504 progress=77 phase=首次采样通路 170
+10-23 16:19:24.375 31840 31840 I Wasteland: V6_LOADING elapsedMs=9527 progress=78 phase=首次采样通路 339
+10-23 16:19:24.397 31840 31840 I Wasteland: V6_LOADING elapsedMs=9549 progress=78 phase=首次采样通路 593
+10-23 16:19:24.419 31840 31840 I Wasteland: V6_LOADING elapsedMs=9571 progress=79 phase=首次采样通路 1009
+10-23 16:19:24.440 31840 31840 I Wasteland: V6_LOADING elapsedMs=9592 progress=80 phase=首次采样通路 1358
+10-23 16:19:24.461 31840 31840 I Wasteland: V6_LOADING elapsedMs=9613 progress=81 phase=首次采样通路 1526
+10-23 16:19:24.483 31840 31840 I Wasteland: V6_LOADING elapsedMs=9635 progress=81 phase=首次采样通路 1806
+10-23 16:19:24.505 31840 31840 I Wasteland: V6_LOADING elapsedMs=9657 progress=82 phase=首次采样通路 2016
+10-23 16:19:24.527 31840 31840 I Wasteland: V6_LOADING elapsedMs=9679 progress=82 phase=首次采样通路 2226
+10-23 16:19:24.549 31840 31840 I Wasteland: V6_LOADING elapsedMs=9701 progress=82 phase=首次采样通路 2505
+10-23 16:19:24.571 31840 31840 I Wasteland: V6_LOADING elapsedMs=9723 progress=83 phase=首次采样通路 2745
+10-23 16:19:24.593 31840 31840 I Wasteland: V6_LOADING elapsedMs=9745 progress=83 phase=首次采样通路 2947
+10-23 16:19:24.614 31840 31840 I Wasteland: V6_LOADING elapsedMs=9766 progress=83 phase=首次采样通路 3166
+10-23 16:19:24.636 31840 31840 I Wasteland: V6_LOADING elapsedMs=9788 progress=83 phase=首次采样通路 3330
+10-23 16:19:24.657 31840 31840 I Wasteland: V6_LOADING elapsedMs=9809 progress=83 phase=首次采样通路 3488
+10-23 16:19:24.679 31840 31840 I Wasteland: V6_LOADING elapsedMs=9831 progress=84 phase=首次采样通路 3623
+10-23 16:19:24.701 31840 31840 I Wasteland: V6_LOADING elapsedMs=9853 progress=84 phase=首次采样通路 3782
+10-23 16:19:24.723 31840 31840 I Wasteland: V6_LOADING elapsedMs=9875 progress=84 phase=首次采样通路 3962
+10-23 16:19:24.744 31840 31840 I Wasteland: V6_LOADING elapsedMs=9896 progress=84 phase=首次采样通路 4141
+10-23 16:19:24.766 31840 31840 I Wasteland: V6_LOADING elapsedMs=9918 progress=85 phase=首次采样通路 4339
+10-23 16:19:24.788 31840 31840 I Wasteland: V6_LOADING elapsedMs=9940 progress=85 phase=首次采样通路 4529
+10-23 16:19:24.809 31840 31840 I Wasteland: V6_LOADING elapsedMs=9961 progress=85 phase=首次采样通路 4734
+10-23 16:19:24.830 31840 31840 I Wasteland: V6_LOADING elapsedMs=9982 progress=85 phase=首次采样通路 4920
+10-23 16:19:24.851 31840 31840 I Wasteland: V6_LOADING elapsedMs=10003 progress=86 phase=首次采样通路 5105
+10-23 16:19:24.872 31840 31840 I Wasteland: V6_LOADING elapsedMs=10024 progress=86 phase=首次采样通路 5249
+10-23 16:19:24.894 31840 31840 I Wasteland: V6_LOADING elapsedMs=10046 progress=86 phase=首次采样通路 5461
+10-23 16:19:24.915 31840 31840 I Wasteland: V6_LOADING elapsedMs=10067 progress=86 phase=首次采样通路 5672
+10-23 16:19:24.936 31840 31840 I Wasteland: V6_LOADING elapsedMs=10088 progress=87 phase=首次采样通路 5923
+10-23 16:19:24.956 31840 31840 I Wasteland: V6_LOADING elapsedMs=10108 progress=87 phase=首次采样通路 6204
+10-23 16:19:24.977 31840 31840 I Wasteland: V6_LOADING elapsedMs=10129 progress=87 phase=首次采样通路 6441
+10-23 16:19:24.998 31840 31840 I Wasteland: V6_LOADING elapsedMs=10150 progress=88 phase=首次采样通路 6695
+10-23 16:19:25.019 31840 31840 I Wasteland: V6_LOADING elapsedMs=10171 progress=88 phase=首次采样通路 7127
+10-23 16:19:25.040 31840 31840 I Wasteland: V6_LOADING elapsedMs=10192 progress=89 phase=首次采样通路 7415
+10-23 16:19:25.061 31840 31840 I Wasteland: V6_LOADING elapsedMs=10213 progress=90 phase=首次采样通路 7697
+10-23 16:19:25.083 31840 31840 I Wasteland: V6_LOADING elapsedMs=10235 progress=90 phase=首次采样通路 7843
+10-23 16:19:25.104 31840 31840 I Wasteland: V6_LOADING elapsedMs=10256 progress=90 phase=首次采样通路 8016
+10-23 16:19:25.125 31840 31840 I Wasteland: V6_LOADING elapsedMs=10277 progress=91 phase=首次采样通路 8175
+10-23 16:19:25.146 31840 31840 I Wasteland: V6_LOADING elapsedMs=10298 progress=91 phase=首次采样通路 8356
+10-23 16:19:25.167 31840 31840 I Wasteland: V6_LOADING elapsedMs=10319 progress=91 phase=首次采样通路 8567
+10-23 16:19:25.188 31840 31840 I Wasteland: V6_LOADING elapsedMs=10340 progress=92 phase=首次采样通路 8761
+10-23 16:19:25.209 31840 31840 I Wasteland: V6_LOADING elapsedMs=10361 progress=92 phase=首次采样通路 8910
+10-23 16:19:25.230 31840 31840 I Wasteland: V6_LOADING elapsedMs=10382 progress=93 phase=首次采样通路 9107
+10-23 16:19:25.250 31840 31840 I Wasteland: V6_LOADING elapsedMs=10402 progress=93 phase=首次采样通路 9352
+10-23 16:19:25.271 31840 31840 I Wasteland: V6_LOADING elapsedMs=10423 progress=94 phase=首次采样通路 9620
+10-23 16:19:25.295 31840 31840 I Wasteland: NAV_GRID_READY step=0.5 samples=9655 walls=5276 cache=generated durationMs=1188
+10-23 16:19:25.329 31840 31840 I Wasteland: V6_SCALE worldMeters=[1.0, 1.0, 1.0] rootScale=Vector3(x=1.0, y=1.0, z=1.0) physicalParentY=0.93467647 eye=Vector3(x=1.42702775E-5, y=1.6499958, z=-1.9999907) freshHmd=true hmd=Vector3(x=8.092472E-5, y=0.93467647, z=-1.01665435E-4) physicalWorld=Vector3(x=9.5195E-5, y=0.9346723, z=-9.237944E-5) anchorWorld=Vector3(x=0.0, y=0.0, z=0.25599998) parentOrigin=Vector3(x=0.0, y=0.0, z=0.25599998) capsule=1.75
+10-23 16:19:25.343 31840 31840 I Wasteland: SCENE_READY version=12 sdk=6.2.6 robots=18 barrels=8 initMs=10495 launchMs=10744 profileNoInk=false profileFullShadows=true
+10-23 16:19:25.343 31840 31840 I Wasteland: V8_PLAYER_CONTRACT eye=Vector3(x=4.6411464E-5, y=1.6500022, z=-1.9999824) standingEye=1.65 body=1.75 heightControls=false defaultWeapons=true containers=11
+10-23 16:19:25.408 31840 31840 I Wasteland: GAME_MENU_RENDERED paused=false over=false ready=true size=1680x289
+10-23 16:19:25.443 31840 31840 I Wasteland: V6_SCALE_FRAME frame=1 eye=Vector3(x=1.2800701E-5, y=1.6500101, z=-1.9999117) physicalWorld=Vector3(x=9.372542E-5, y=0.93468666, z=-1.3275552E-5) anchorWorld=Vector3(x=0.0, y=0.0, z=0.25599998) physicalParent=Vector3(x=9.372542E-5, y=0.93468666, z=-0.25601324) parentOrigin=Vector3(x=0.0, y=0.0, z=0.25599998) hmd=Vector3(x=9.372542E-5, y=0.93468666, z=-1.3275552E-5)
+10-23 16:19:25.451 31840  4307 I Wasteland: AUDIO_LOOP name=bgm playing=true owner=WastelandMusic
+10-23 16:19:25.454 31840  4307 I Wasteland: AUDIO_LOOP name=ambient_entry playing=true owner=WastelandMusic
+10-23 16:19:25.484 31840 31840 I Wasteland: V6_SCALE_FRAME frame=4 eye=Vector3(x=-3.204684E-5, y=1.6500151, z=-1.9999424) physicalWorld=Vector3(x=4.8877882E-5, y=0.93469167, z=-4.40703E-5) anchorWorld=Vector3(x=0.0, y=0.0, z=0.25599998) physicalParent=Vector3(x=4.8877882E-5, y=0.93469167, z=-0.25604406) parentOrigin=Vector3(x=0.0, y=0.0, z=0.25599998) hmd=Vector3(x=4.8877882E-5, y=0.93469167, z=-4.40703E-5)
+10-23 16:19:25.503 31840 31840 I Wasteland: CONTROLLER_STATE PENDING/DEVICE_NOT_SUPPORTED
+10-23 16:19:26.387 31840 31840 I Wasteland: V6_SCALE_FRAME frame=30 eye=Vector3(x=9.972996E-5, y=1.6500447, z=-1.9999675) physicalWorld=Vector3(x=1.8065468E-4, y=0.93472123, z=-6.909319E-5) anchorWorld=Vector3(x=0.0, y=0.0, z=0.25599998) physicalParent=Vector3(x=1.8065468E-4, y=0.93472123, z=-0.25606906) parentOrigin=Vector3(x=0.0, y=0.0, z=0.25599998) hmd=Vector3(x=1.8065468E-4, y=0.93472123, z=-6.909319E-5)

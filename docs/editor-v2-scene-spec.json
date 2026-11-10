@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "spatialcraft.scene-generation-spec/v2",
+  "sceneId": "WastelandV2Assets",
+  "name": "Wasteland V2 Original Assets",
+  "objective": "生产现有前哨 VR 射击游戏可复用的原创装甲机器人、科幻霰弹枪与矿区发电机资产。独立完整模型，适合移动 VR，应用侧负责摆放、战斗与交互。",
+  "coordinateSystem": {
+    "handedness": "right",
+    "upAxis": "Y",
+    "unitsPerMeter": 1
+  },
+  "modelGeneration": "allowed",
+  "subjects": [
+    {
+      "id": "ArmoredRobot",
+      "kind": "character",
+      "authoringStrategy": "generated-model",
+      "description": "完整双足装甲机器人，头部、躯干、双臂、双腿可辨认，铁灰护甲、橙色装甲片、青色眼部，漫画风轮廓。",
+      "generationPrompt": "Isolated armored bipedal robot as one self-contained character. Geometry contains a complete head with cyan visor, torso with orange and dark iron armor panels, two articulated arms and two complete legs with grounded feet. Stylized game-ready low polygon hard surface armor, clean readable silhouette. Centered, complete, unobstructed neutral standing pose. Its support surface is its own two feet.",
+      "count": 1
+    },
+    {
+      "id": "Scattergun",
+      "kind": "prop",
+      "authoringStrategy": "generated-model",
+      "description": "完整科幻霰弹枪，枪口、枪管、前护手、机匣、扳机握把、弹匣轮廓清晰，漫画风铁灰与橙色外观。",
+      "generationPrompt": "Isolated futuristic pump shotgun as one self-contained product. Geometry contains a short wide barrel with a clear muzzle, pump foregrip, detailed receiver with bolt, trigger grip and detachable magazine. Stylized dark iron and orange hard surface panels, worn edges, cyan small indicator. Centered, complete, unobstructed side presentation. No hands or display stand.",
+      "count": 1
+    },
+    {
+      "id": "MiningGenerator",
+      "kind": "prop",
+      "authoringStrategy": "generated-model",
+      "description": "独立矿区发电机，机座、发动机外壳、散热格栅、粗管和带青色屏幕的控制面板，沙色与铁灰金属。",
+      "generationPrompt": "Isolated industrial mining generator as one self-contained product. Geometry contains its own rectangular base, chunky engine housing, ventilation grilles, thick connected pipes and a small cyan control screen with a lever. Stylized sand-colored and dark iron metal with orange hazard details and worn edges. Centered, complete, unobstructed. Its support surface is its own flat metal base.",
+      "count": 1
+    }
+  ],
+  "composition": {
+    "description": "三个独立可复用资产分别有清晰预览，互不遮挡。此交付仅为资产，不改动应用中已有的前哨环境或放入玩家场景。"
+  },
+  "lighting": {
+    "description": "中性柔和灯光用于检查完整轮廓、表面细节与朝向。"
+  }
+}

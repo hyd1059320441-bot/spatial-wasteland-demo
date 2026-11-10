@@ -1,0 +1,62 @@
+diff --git a/workflow/public/spatial-3d-generation/src/steps/select-backend.ts b/workflow/public/spatial-3d-generation/src/steps/select-backend.ts
+index 2ee8ac9b..969d9b99 100644
+--- a/workflow/public/spatial-3d-generation/src/steps/select-backend.ts
++++ b/workflow/public/spatial-3d-generation/src/steps/select-backend.ts
+@@ -70,6 +70,11 @@ export async function execute(
+   const editorExecution = input.request.extensions?.['editor.execution'];
+   const preferredMode = editorExecution?.preferredMode === 'gui' ? 'gui' : 'headless';
+   const guiReason = editorExecution?.guiReason;
++  const modelProvider = editorExecution?.modelProvider;
++  if (modelProvider !== undefined &&
++      (typeof modelProvider !== 'string' || !/^[a-z][a-z0-9_-]{0,99}$/.test(modelProvider))) {
++    throw new Error('SPATIAL_3D_EDITOR_MODEL_PROVIDER_INVALID');
++  }
+   if (
+     backendKey === 'editor' &&
+     preferredMode === 'gui' &&
+@@ -80,6 +85,7 @@ export async function execute(
+   const execution = {
+     preferredMode,
+     ...(preferredMode === 'gui' ? { guiReason } : {}),
++    ...(modelProvider === undefined ? {} : { modelProvider }),
+   };
+   const workspace = input.request.workspace ?? { root: '.' };
+   if (input.request.mode === 'production' && input.request.workspace === undefined) {
+diff --git a/workflow/public/spatial-editor-workflow/schemas/spatial-editor-workflow.input.schema.json b/workflow/public/spatial-editor-workflow/schemas/spatial-editor-workflow.input.schema.json
+index c1791760..361f53f8 100644
+--- a/workflow/public/spatial-editor-workflow/schemas/spatial-editor-workflow.input.schema.json
++++ b/workflow/public/spatial-editor-workflow/schemas/spatial-editor-workflow.input.schema.json
+@@ -53,6 +53,11 @@
+         },
+         "guiReason": {
+           "enum": ["user_requested", "authentication", "capture_fallback", "tool_requires_gui"]
++        },
++        "modelProvider": {
++          "type": "string",
++          "pattern": "^[a-z][a-z0-9_-]{0,99}$",
++          "description": "Explicit model generation engine selected by the caller; omission preserves Editor auto selection."
+         }
+       },
+       "allOf": [
+diff --git a/workflow/public/spatial-editor-workflow/src/steps/prepare-authoring-v6.ts b/workflow/public/spatial-editor-workflow/src/steps/prepare-authoring-v6.ts
+index af852b2d..3b139482 100644
+--- a/workflow/public/spatial-editor-workflow/src/steps/prepare-authoring-v6.ts
++++ b/workflow/public/spatial-editor-workflow/src/steps/prepare-authoring-v6.ts
+@@ -39,6 +39,7 @@ interface EditorWorkflowInput {
+   workspace: { root: string };
+   acceptanceCriteria: Array<{ id: string; description: string; required: boolean }>;
+   delivery: { packageName?: string };
++  execution?: { modelProvider?: string };
+   parentContext: { parentRunId: string; callId: string };
+ }
+ 
+@@ -122,6 +123,9 @@ export async function execute(inputValue: unknown, context: WorkflowScriptContex
+       prompt: subject.generationPrompt ?? subject.description,
+       name: subject.id,
+       acceptanceIds,
++      ...(input.execution?.modelProvider
++        ? { providerOptions: { engine: input.execution.modelProvider, pbr: true } }
++        : {}),
+     })),
+     authoring: {
+       schemaVersion: 'spatialcraft.editor-authoring-input/v6',

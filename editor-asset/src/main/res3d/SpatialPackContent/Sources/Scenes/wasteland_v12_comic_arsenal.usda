@@ -1,0 +1,45 @@
+#usda 1.0
+(
+    customLayerData = {
+        string Copyright = "Copyright 2022 - 2024 PICO. All rights reserved."
+        string RuntimeVersion = "Runtime V6.1.0.0.rls.25"
+        string Version = "Spatial Editor V6.1.8"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "rail_sniper" (
+        prepend references = @../AI-Asset/rail_sniper.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1.1194363, 1.1194363, 1.1194363)
+        float3 xformOp:translate = (0.00025570154, 0, 0.0007492164)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "arc_smg" (
+        prepend references = @../AI-Asset/arc_smg.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.8685147, 0.8685147, 0.8685147)
+        float3 xformOp:translate = (-1.1997385, 0, 0.0001800118)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "plasma_cannon" (
+        prepend references = @../AI-Asset/plasma_cannon.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (2.0408163, 2.0408163, 2.0408163)
+        float3 xformOp:translate = (1.2002014, 0, 0.00032609215)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+

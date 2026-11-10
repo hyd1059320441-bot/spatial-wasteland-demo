@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1024" viewBox="0 0 2048 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17141d"/>
+      <stop offset="0.48" stop-color="#4c2630"/>
+      <stop offset="0.72" stop-color="#a34a2c"/>
+      <stop offset="1" stop-color="#d28645"/>
+    </linearGradient>
+    <pattern id="hatch" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <path d="M0 2H28 M0 10H28" stroke="#171018" stroke-width="3" opacity=".28"/>
+    </pattern>
+  </defs>
+  <rect width="2048" height="1024" fill="url(#sky)"/>
+  <circle cx="410" cy="515" r="112" fill="#ffd077"/>
+  <circle cx="410" cy="515" r="132" fill="none" stroke="#3a1820" stroke-width="15"/>
+  <g fill="#30202a" stroke="#151017" stroke-width="16" stroke-linejoin="round">
+    <path d="M0 310 L180 280 330 330 520 292 690 350 865 305 1040 340 1230 288 1420 332 1620 275 1840 330 2048 310 2048 410 0 410Z" opacity=".62"/>
+    <path d="M0 450 L210 420 390 468 610 430 820 482 1050 438 1270 475 1490 424 1715 470 1890 430 2048 450 2048 540 0 540Z" opacity=".5"/>
+  </g>
+  <path d="M0 660 L140 610 270 650 390 565 525 635 670 540 805 625 970 555 1125 640 1290 570 1460 630 1625 548 1790 635 1910 590 2048 660 2048 1024 0 1024Z"
+        fill="#482722" stroke="#160f12" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M0 765 L180 700 345 758 540 682 720 760 920 694 1110 772 1300 690 1510 760 1700 700 1870 755 2048 765 2048 1024 0 1024Z"
+        fill="#2a2020" stroke="#120d0d" stroke-width="18" stroke-linejoin="round"/>
+  <rect y="530" width="2048" height="494" fill="url(#hatch)"/>
+  <g stroke="#d77a3b" stroke-width="7" opacity=".45">
+    <path d="M90 835l190-92 M510 840l180-98 M930 852l195-104 M1360 840l175-94 M1770 852l190-104"/>
+    <path d="M160 900l170-82 M600 910l190-94 M1040 918l180-90 M1485 902l180-88"/>
+  </g>
+</svg>

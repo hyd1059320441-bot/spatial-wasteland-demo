@@ -1,0 +1,46 @@
+{
+  "asset": {
+    "format": "glb",
+    "path": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/assets-src/quaternius/robot-expressive.glb"
+  },
+  "axis_metadata": {
+    "evidence": "The glTF format defines a Y-up coordinate system.",
+    "height_axis": "y",
+    "status": "verified",
+    "up_axis": "Y"
+  },
+  "bounds": {
+    "extents": {
+      "x": 6.618548929691315,
+      "y": 4.461222738392462,
+      "z": 2.6851856854614566
+    },
+    "max": {
+      "x": 3.306558827869594,
+      "y": 4.440918308063705,
+      "z": 1.4160374093795574
+    },
+    "min": {
+      "x": -3.3119901018217206,
+      "y": -0.020304430328757284,
+      "z": -1.2691482760818993
+    },
+    "space": "source_coordinates"
+  },
+  "limitations": [
+    "Source bounds do not replace final Spatial SDK Entity visual bounds.",
+    "Model-forward direction and pivot semantics are not inferred."
+  ],
+  "meter_extents": {
+    "x": 6.618548929691315,
+    "y": 4.461222738392462,
+    "z": 2.6851856854614566
+  },
+  "native_height_meters": 4.461222738392462,
+  "schema_version": 1,
+  "unit_metadata": {
+    "evidence": "The glTF format defines linear distances in meters.",
+    "meters_per_unit": 1.0,
+    "status": "verified"
+  }
+}

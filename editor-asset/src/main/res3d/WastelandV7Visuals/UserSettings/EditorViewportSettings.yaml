@@ -1,0 +1,34 @@
+serializedVersion: 2
+toolsConfig:
+  CurrentToolTypeID: 1
+  CurrentCoordTypeID: 0
+  CurrentAbsorbTypeID: 0
+camerasConfig:
+  - Guid: 4be9bc9c-f83d-442a-81cd-549e6512d8c0
+    Name: Hi
+    Path: Sources/Scenes/Hi.usda
+    Pos:
+      x: 0
+      y: 0.6
+      z: 1
+    Rotation:
+      x: -0.2669336
+      y: -0
+      z: -0
+      w: 0.96371496
+    RoamRadius: 1.1661904
+  - Guid: dcb08fde-927a-4e09-93c3-43a84eef212c
+    Name: WastelandV7Visuals
+    Path: Sources/Scenes/WastelandV7Visuals.usda
+    Pos:
+      x: -1.3113416e-07
+      y: 0
+      z: -1.5
+    Rotation:
+      x: 0
+      y: 1
+      z: 0
+      w: -4.371139e-08
+    RoamRadius: 1.5
+customConfig:
+  []

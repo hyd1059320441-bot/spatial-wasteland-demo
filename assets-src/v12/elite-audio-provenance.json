@@ -1,0 +1,29 @@
+{
+  "source": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/app/src/main/assets/models/v8/HeavyGunnerV9.glb",
+  "sourceSha256": "4afdeb467aff6dc474a2adf4992d35a85db6df26079138339d843b7998132128",
+  "derivative": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/app/src/main/assets/models/v12/ElitePurpleGold.glb",
+  "sha256": "8af975657cbbd73eb6831e1be6469ae48926ecdfa0b2bfd944954b4e821ba40e",
+  "change": "Base-color texture hues only; original vertices, joints, clips, sockets and accessor bytes preserved.",
+  "originalAudio": [
+    {
+      "name": "arc",
+      "sha256": "2d88cf1b83280cf4992ba8edbb17cdf019a9af1a10e4a02ad05bb25b349cac73"
+    },
+    {
+      "name": "rail",
+      "sha256": "fe18d5c7956655fc39cb88c32ffb58ef1a15a6bf125b0d1e901cf062519bf06b"
+    },
+    {
+      "name": "plasma",
+      "sha256": "3ec909a4fe9ab6f802c94ff7f342be714c4fbea0ed86d468ec963d13fe2f905d"
+    },
+    {
+      "name": "plasma_impact",
+      "sha256": "0f50b331a2983f5810ec5a3955bdc753ac2e3c7bf71c3ae32a48d335e6943064"
+    },
+    {
+      "name": "pickup",
+      "sha256": "629f73334a38e306c366a314083908765a574bb2ffb087d89ca17aa9c9f25dbc"
+    }
+  ]
+}

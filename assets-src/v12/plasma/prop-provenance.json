@@ -1,0 +1,78 @@
+{
+  "name": "plasma_cannon",
+  "source": "/Users/bytedance/.pico/cli/workflow/runs/run-6cd4758a-95b9-47de-b173-495f55e36a64/artifacts/assets/asset_plasma_cannon-4e68c0f2474f/primary.usdz",
+  "sourceSha256": "5b460f702e591deb3b345181c9d01c6d3f07878e19332494981ce7a30767cf6a",
+  "derivative": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/assets-src/v12/plasma/plasma_cannon.usdz",
+  "sha256": "3232788d3bc1ccd22b56ba984946642579bb44bcc0e3356061ae5850047bda27",
+  "bytes": 4497214,
+  "meshes": [
+    {
+      "path": "/Root/mesh1",
+      "sourceTriangles": 49363,
+      "triangles": 14795,
+      "meshoptError": 0.002991493558511138
+    }
+  ],
+  "textures": [
+    {
+      "path": "extracted_image_1.jpg_roughness.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_1.jpg_metallic.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_2.jpg",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_0.jpg",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "metersPerUnit": 1,
+  "upAxis": "Y",
+  "bounds": {
+    "min": [
+      -0.18384867906570435,
+      0.00019752979278564453,
+      -0.06480026990175247
+    ],
+    "max": [
+      0.1836119294166565,
+      0.21999844908714294,
+      0.06461586803197861
+    ]
+  },
+  "transform": "Preserve authored coordinates, pivot and vertex attributes; simplify indices and downsample textures.",
+  "status": "offline_derivative_pending_visual_and_runtime_review"
+}

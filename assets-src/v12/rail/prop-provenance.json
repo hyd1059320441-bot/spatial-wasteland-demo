@@ -1,0 +1,78 @@
+{
+  "name": "rail_sniper",
+  "source": "/Users/bytedance/.pico/cli/workflow/runs/run-6cd4758a-95b9-47de-b173-495f55e36a64/artifacts/assets/asset_rail_sniper-4a84c66a666f/primary.usdz",
+  "sourceSha256": "8b69fa7d36ecaf7c11bfefb0f3473eb43949a3698a7cdbb145f3a53275baa1d5",
+  "derivative": "/Users/bytedance/Documents/ai/spatial-wasteland-demo/assets-src/v12/rail/rail_sniper.usdz",
+  "sha256": "1f851b2f021030d8118e4f11121a18b04dc8f3edbb0597c2dc39607eb3268339",
+  "bytes": 4483430,
+  "meshes": [
+    {
+      "path": "/Root/mesh1",
+      "sourceTriangles": 49327,
+      "triangles": 13571,
+      "meshoptError": 0.002985236933454871
+    }
+  ],
+  "textures": [
+    {
+      "path": "extracted_image_1.jpg_roughness.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_1.jpg_metallic.png",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_2.jpg",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "extracted_image_0.jpg",
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "metersPerUnit": 1,
+  "upAxis": "Y",
+  "bounds": {
+    "min": [
+      -0.40214720368385315,
+      0.001104213297367096,
+      -0.02890441007912159
+    ],
+    "max": [
+      0.4016827344894409,
+      0.2499459683895111,
+      0.027214953675866127
+    ]
+  },
+  "transform": "Preserve authored coordinates, pivot and vertex attributes; simplify indices and downsample textures.",
+  "status": "offline_derivative_pending_visual_and_runtime_review"
+}

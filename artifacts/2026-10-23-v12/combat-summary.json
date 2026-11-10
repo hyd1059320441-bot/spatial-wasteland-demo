@@ -1,0 +1,11 @@
+{
+  "combatPass": "COMBAT_STRESS_PASS durationMs=120002 frames=3463 shots=189 worstMs=30.038542 audioFailures=0 loopFailures=0 pauseCycles=0 gunShots=[37, 27, 111, 11, 3]",
+  "fpsAfterNavigation": {
+    "samples": 69,
+    "min": 27,
+    "max": 36,
+    "median": 29,
+    "mean": 29.043478260869566
+  },
+  "device": "PB331XPGL6040019G"
+}

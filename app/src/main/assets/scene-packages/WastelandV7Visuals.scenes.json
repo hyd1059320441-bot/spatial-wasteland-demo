@@ -1,0 +1,2426 @@
+{
+  "activeScenePath": "Sources/Scenes/WastelandV7Visuals.usda",
+  "scenes": [
+    {
+      "bundlePath": "Sources/Scenes/WastelandV7Visuals.usda",
+      "container": {
+        "appContainer": "Stage",
+        "bounded": false,
+        "contentHost": null,
+        "coordinateSystem": "right-handed, meters",
+        "editorType": "Stage",
+        "isDefault": false,
+        "showUISample": false,
+        "sizeDp": null,
+        "sizeMeters": null,
+        "source": "editor-viewport-container-settings",
+        "spaceRequirement": "FullSpace",
+        "unit": "DevicePoint",
+        "usageHint": "Use Stage for immersive unbounded 3D content."
+      },
+      "entities": [
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000",
+          "name": "Batch_000",
+          "parentPath": "Root",
+          "path": "Root/Batch_000",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicFront",
+          "name": "CeramicFront",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/CeramicFront",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.5950000286102295,
+              1.0199999809265137
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              10.5,
+              3.75,
+              0.75
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicFront/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/CeramicFront",
+          "path": "Root/Batch_000/CeramicFront/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontRight",
+          "name": "GuardFrontRight",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/GuardFrontRight",
+          "resources": {},
+          "transform": {
+            "position": [
+              1.25,
+              0.7250000238418579,
+              1.0399999618530273
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.8999999761581421,
+              5.75,
+              0.8999999761581421
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontRight/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/GuardFrontRight",
+          "path": "Root/Batch_000/GuardFrontRight/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/PowerBase",
+          "name": "PowerBase",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/PowerBase",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.10999999940395355,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              14,
+              1.100000023841858,
+              12
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/PowerBase/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/PowerBase",
+          "path": "Root/Batch_000/PowerBase/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicRear",
+          "name": "CeramicRear",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/CeramicRear",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.5950000286102295,
+              -1.0199999809265137
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              10.5,
+              3.75,
+              0.75
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicRear/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/CeramicRear",
+          "path": "Root/Batch_000/CeramicRear/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceRear",
+          "name": "BraceRear",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/BraceRear",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              1.2300000190734863,
+              -1.0399999618530273
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              13,
+              0.699999988079071,
+              0.800000011920929
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceRear/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/BraceRear",
+          "path": "Root/Batch_000/BraceRear/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear0",
+          "name": "FinRear0",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinRear0",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.8500000238418579,
+              0.6000000238418579,
+              -1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear0/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinRear0",
+          "path": "Root/Batch_000/FinRear0/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear1",
+          "name": "FinRear1",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinRear1",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.5099999904632568,
+              0.6000000238418579,
+              -1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear1/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinRear1",
+          "path": "Root/Batch_000/FinRear1/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear2",
+          "name": "FinRear2",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinRear2",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.17000000178813934,
+              0.6000000238418579,
+              -1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear2/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinRear2",
+          "path": "Root/Batch_000/FinRear2/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear3",
+          "name": "FinRear3",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinRear3",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.17000000178813934,
+              0.6000000238418579,
+              -1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear3/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinRear3",
+          "path": "Root/Batch_000/FinRear3/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear4",
+          "name": "FinRear4",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinRear4",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.5099999904632568,
+              0.6000000238418579,
+              -1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear4/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinRear4",
+          "path": "Root/Batch_000/FinRear4/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear5",
+          "name": "FinRear5",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinRear5",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.8500000238418579,
+              0.6000000238418579,
+              -1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear5/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinRear5",
+          "path": "Root/Batch_000/FinRear5/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearLeft",
+          "name": "GuardRearLeft",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/GuardRearLeft",
+          "resources": {},
+          "transform": {
+            "position": [
+              -1.25,
+              0.7250000238418579,
+              -1.0399999618530273
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.8999999761581421,
+              5.75,
+              0.8999999761581421
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearLeft/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/GuardRearLeft",
+          "path": "Root/Batch_000/GuardRearLeft/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearRight",
+          "name": "GuardRearRight",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/GuardRearRight",
+          "resources": {},
+          "transform": {
+            "position": [
+              1.25,
+              0.7250000238418579,
+              -1.0399999618530273
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.8999999761581421,
+              5.75,
+              0.8999999761581421
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearRight/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/GuardRearRight",
+          "path": "Root/Batch_000/GuardRearRight/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceFront",
+          "name": "BraceFront",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/BraceFront",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              1.2300000190734863,
+              1.0399999618530273
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              13,
+              0.699999988079071,
+              0.800000011920929
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceFront/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/BraceFront",
+          "path": "Root/Batch_000/BraceFront/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront0",
+          "name": "FinFront0",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinFront0",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.8500000238418579,
+              0.6000000238418579,
+              1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront0/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinFront0",
+          "path": "Root/Batch_000/FinFront0/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront1",
+          "name": "FinFront1",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinFront1",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.5099999904632568,
+              0.6000000238418579,
+              1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront1/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinFront1",
+          "path": "Root/Batch_000/FinFront1/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront2",
+          "name": "FinFront2",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinFront2",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.17000000178813934,
+              0.6000000238418579,
+              1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront2/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinFront2",
+          "path": "Root/Batch_000/FinFront2/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront3",
+          "name": "FinFront3",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinFront3",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.17000000178813934,
+              0.6000000238418579,
+              1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront3/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinFront3",
+          "path": "Root/Batch_000/FinFront3/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront4",
+          "name": "FinFront4",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinFront4",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.5099999904632568,
+              0.6000000238418579,
+              1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront4/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinFront4",
+          "path": "Root/Batch_000/FinFront4/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront5",
+          "name": "FinFront5",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/FinFront5",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.8500000238418579,
+              0.6000000238418579,
+              1.090000033378601
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.100000023841858,
+              3.25,
+              0.4000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront5/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/FinFront5",
+          "path": "Root/Batch_000/FinFront5/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontLeft",
+          "name": "GuardFrontLeft",
+          "parentPath": "Root/Batch_000",
+          "path": "Root/Batch_000/GuardFrontLeft",
+          "resources": {},
+          "transform": {
+            "position": [
+              -1.25,
+              0.7250000238418579,
+              1.0399999618530273
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.8999999761581421,
+              5.75,
+              0.8999999761581421
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontLeft/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/Batch_000/GuardFrontLeft",
+          "path": "Root/Batch_000/GuardFrontLeft/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        }
+      ],
+      "entityCount": 43,
+      "guid": "dcb08fde-927a-4e09-93c3-43a84eef212c",
+      "hierarchy": [
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicFront/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/CeramicFront/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicFront",
+              "name": "CeramicFront",
+              "path": "Root/Batch_000/CeramicFront",
+              "transform": {
+                "position": [
+                  0,
+                  0.5950000286102295,
+                  1.0199999809265137
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  10.5,
+                  3.75,
+                  0.75
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontRight/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/GuardFrontRight/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontRight",
+              "name": "GuardFrontRight",
+              "path": "Root/Batch_000/GuardFrontRight",
+              "transform": {
+                "position": [
+                  1.25,
+                  0.7250000238418579,
+                  1.0399999618530273
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.8999999761581421,
+                  5.75,
+                  0.8999999761581421
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/PowerBase/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/PowerBase/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/PowerBase",
+              "name": "PowerBase",
+              "path": "Root/Batch_000/PowerBase",
+              "transform": {
+                "position": [
+                  0,
+                  0.10999999940395355,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  14,
+                  1.100000023841858,
+                  12
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicRear/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/CeramicRear/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/CeramicRear",
+              "name": "CeramicRear",
+              "path": "Root/Batch_000/CeramicRear",
+              "transform": {
+                "position": [
+                  0,
+                  0.5950000286102295,
+                  -1.0199999809265137
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  10.5,
+                  3.75,
+                  0.75
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceRear/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/BraceRear/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceRear",
+              "name": "BraceRear",
+              "path": "Root/Batch_000/BraceRear",
+              "transform": {
+                "position": [
+                  0,
+                  1.2300000190734863,
+                  -1.0399999618530273
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  13,
+                  0.699999988079071,
+                  0.800000011920929
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear0/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinRear0/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear0",
+              "name": "FinRear0",
+              "path": "Root/Batch_000/FinRear0",
+              "transform": {
+                "position": [
+                  -0.8500000238418579,
+                  0.6000000238418579,
+                  -1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear1/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinRear1/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear1",
+              "name": "FinRear1",
+              "path": "Root/Batch_000/FinRear1",
+              "transform": {
+                "position": [
+                  -0.5099999904632568,
+                  0.6000000238418579,
+                  -1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear2/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinRear2/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear2",
+              "name": "FinRear2",
+              "path": "Root/Batch_000/FinRear2",
+              "transform": {
+                "position": [
+                  -0.17000000178813934,
+                  0.6000000238418579,
+                  -1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear3/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinRear3/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear3",
+              "name": "FinRear3",
+              "path": "Root/Batch_000/FinRear3",
+              "transform": {
+                "position": [
+                  0.17000000178813934,
+                  0.6000000238418579,
+                  -1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear4/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinRear4/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear4",
+              "name": "FinRear4",
+              "path": "Root/Batch_000/FinRear4",
+              "transform": {
+                "position": [
+                  0.5099999904632568,
+                  0.6000000238418579,
+                  -1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear5/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinRear5/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinRear5",
+              "name": "FinRear5",
+              "path": "Root/Batch_000/FinRear5",
+              "transform": {
+                "position": [
+                  0.8500000238418579,
+                  0.6000000238418579,
+                  -1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearLeft/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/GuardRearLeft/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearLeft",
+              "name": "GuardRearLeft",
+              "path": "Root/Batch_000/GuardRearLeft",
+              "transform": {
+                "position": [
+                  -1.25,
+                  0.7250000238418579,
+                  -1.0399999618530273
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.8999999761581421,
+                  5.75,
+                  0.8999999761581421
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearRight/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/GuardRearRight/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardRearRight",
+              "name": "GuardRearRight",
+              "path": "Root/Batch_000/GuardRearRight",
+              "transform": {
+                "position": [
+                  1.25,
+                  0.7250000238418579,
+                  -1.0399999618530273
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.8999999761581421,
+                  5.75,
+                  0.8999999761581421
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceFront/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/BraceFront/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/BraceFront",
+              "name": "BraceFront",
+              "path": "Root/Batch_000/BraceFront",
+              "transform": {
+                "position": [
+                  0,
+                  1.2300000190734863,
+                  1.0399999618530273
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  13,
+                  0.699999988079071,
+                  0.800000011920929
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront0/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinFront0/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront0",
+              "name": "FinFront0",
+              "path": "Root/Batch_000/FinFront0",
+              "transform": {
+                "position": [
+                  -0.8500000238418579,
+                  0.6000000238418579,
+                  1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront1/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinFront1/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront1",
+              "name": "FinFront1",
+              "path": "Root/Batch_000/FinFront1",
+              "transform": {
+                "position": [
+                  -0.5099999904632568,
+                  0.6000000238418579,
+                  1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront2/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinFront2/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront2",
+              "name": "FinFront2",
+              "path": "Root/Batch_000/FinFront2",
+              "transform": {
+                "position": [
+                  -0.17000000178813934,
+                  0.6000000238418579,
+                  1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront3/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinFront3/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront3",
+              "name": "FinFront3",
+              "path": "Root/Batch_000/FinFront3",
+              "transform": {
+                "position": [
+                  0.17000000178813934,
+                  0.6000000238418579,
+                  1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront4/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinFront4/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront4",
+              "name": "FinFront4",
+              "path": "Root/Batch_000/FinFront4",
+              "transform": {
+                "position": [
+                  0.5099999904632568,
+                  0.6000000238418579,
+                  1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront5/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/FinFront5/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/FinFront5",
+              "name": "FinFront5",
+              "path": "Root/Batch_000/FinFront5",
+              "transform": {
+                "position": [
+                  0.8500000238418579,
+                  0.6000000238418579,
+                  1.090000033378601
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.100000023841858,
+                  3.25,
+                  0.4000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontLeft/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/Batch_000/GuardFrontLeft/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:wastelandv7visuals:Root/Batch_000/GuardFrontLeft",
+              "name": "GuardFrontLeft",
+              "path": "Root/Batch_000/GuardFrontLeft",
+              "transform": {
+                "position": [
+                  -1.25,
+                  0.7250000238418579,
+                  1.0399999618530273
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.8999999761581421,
+                  5.75,
+                  0.8999999761581421
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:wastelandv7visuals:Root/Batch_000",
+          "name": "Batch_000",
+          "path": "Root/Batch_000",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        }
+      ],
+      "id": "scene:wastelandv7visuals",
+      "name": "WastelandV7Visuals",
+      "rootCount": 1,
+      "sourcePath": "Sources/Scenes/WastelandV7Visuals.usda",
+      "warnings": []
+    }
+  ],
+  "schemaVersion": "0.1",
+  "scope": "bundle_scenes",
+  "source": "pack_editor_bundle",
+  "sourceTool": "export_bundle_scene_manifest",
+  "warnings": []
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "spatialcraft.scene-generation-spec/v2",
+  "sceneId": "WastelandV3Assets",
+  "name": "废土矿区第三版统一资产",
+  "objective": "使用已配置的Meshy生产一致的原创美式漫画工业废土PBR模型。枪械适合近距离VR观察，机械敌人具备清晰关节边界。模型以粗重墨线、手绘排线、分区明暗、锈橙/沙岩/深铁灰色块统一，供Kotlin ECS场景运行时组装；天空、灯光、粒子、动画和地图由应用侧制作。",
+  "coordinateSystem": {"handedness": "right", "upAxis": "Y", "unitsPerMeter": 1},
+  "modelGeneration": "allowed",
+  "subjects": [
+    {
+      "id": "HeroRifle", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "英雄自动步枪，清晰枪身、弹匣、枪机、扳机护圈与枪口，近距离磨损细节。",
+      "generationPrompt": "Isolated original industrial wasteland automatic rifle, complete unobstructed product. Long machined barrel with vented heat shield, angular heavy steel receiver, optical iron sight, ergonomic pistol grip, open trigger guard with trigger, curved detachable magazine, exposed charging bolt, shoulder stock. Hand-painted PBR worn dark iron and dusty sandstone armor, muted rust orange accent stripe, crisp beveled edges and fine scratches. Believable VR close-up mechanical construction. Separate readable mechanical part boundaries, horizontal barrel, no hands, no stand, no scenery."
+    },
+    {
+      "id": "ChargerRobot", "kind": "character", "authoringStrategy": "generated-model", "count": 1,
+      "description": "前倾窄剪影冲锋机器人，分段机械双腿、头部传感器及近战执行器。",
+      "generationPrompt": "Isolated complete original biped industrial wasteland assault robot, lean forward-leaning silhouette, segmented long mechanical legs and broad grounded feet, compact armored torso, distinct rotating neck and angular sensor head, two mechanical arms with articulated elbows and short hydraulic striking claws. Neutral relaxed A pose, clear gaps at shoulder elbow hip knee joints for rigid-part animation. Hand-painted PBR dusty sandstone plates, worn dark iron joints, rust orange markings, small amber sensor. Detailed pistons, cables and scratches, solid believable machinery, no pedestal or environment."
+    },
+    {
+      "id": "SandstoneRock", "kind": "environment", "authoringStrategy": "generated-model", "count": 1,
+      "description": "不规则层状沙岩，可复用为矿区岩壁与掩体，底面平稳。",
+      "generationPrompt": "Isolated irregular weathered sandstone rock formation with stable flat bottom, chunky layered sedimentary silhouette, fractured overhangs, eroded ridges and deep crevices. Hand-painted PBR warm ochre sandstone, dusty sienna shadows, pale chipped edges, subtle dark mineral seams. Cohesive stylized industrial wasteland game art with grounded weight and detailed surface, modest optimized geometry, complete object, no terrain patch, no vegetation, no buildings, no pedestal."
+    },
+    {
+      "id": "HeroShotgun", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "重型泵动霰弹枪，独立前护木、弹仓及宽枪口，与步枪材质一致。",
+      "generationPrompt": "Isolated original heavy pump-action industrial wasteland shotgun, complete horizontal weapon. Thick perforated barrel shroud and broad muzzle, tubular lower magazine, ribbed sliding pump foregrip, heavy angular receiver with ejection port, visible trigger inside open guard, ergonomic grip and compact shoulder stock. Hand-painted PBR worn dark iron, dusty sandstone panels, muted rust orange stripes, machined edge highlights and scratches. Readable movable part boundaries, believable close-up VR construction, no hands, stand or scenery."
+    },
+    {
+      "id": "ShooterRobot", "kind": "character", "authoringStrategy": "generated-model", "count": 1,
+      "description": "远程炮臂射手，稳定双足、偏置瞄准传感器和明显炮臂。",
+      "generationPrompt": "Isolated complete original industrial wasteland ranged combat robot, distinct upright angular silhouette, stable segmented biped legs, medium armored torso, offset aiming sensor head, large integrated mechanical gun on right forearm with barrel and ammo feed, articulated left support arm. Neutral A pose with separated elbow shoulder hip knee joint gaps for rigid-part animation. Hand-painted PBR dusty sandstone armor, dark worn iron joints, muted rust orange markings and tiny cyan power lens. Detailed hydraulics, vents and scratches, no base or scenery."
+    },
+    {
+      "id": "EliteRobot", "kind": "character", "authoringStrategy": "generated-model", "count": 1,
+      "description": "独有重装精英机器人，厚肩甲、重炮、膝关节与胸部弱点核心。",
+      "generationPrompt": "Isolated original heavy industrial wasteland armored boss robot, wide imposing silhouette, massive layered shoulder plates and thick torso, broad segmented legs with hydraulic knee actuators, grounded heavy feet, heavy cannon forearm and mechanical grasping arm. Distinct recessed cyan reactor core in chest behind removable armor panel, small angular sensor head. Neutral A pose with clear joint gaps. Hand-painted PBR worn dark iron and dusty sandstone plates, rust orange hazard stripes, detailed bolts, seams and chipped edges. No pedestal or environment."
+    },
+    {
+      "id": "RepairStation", "kind": "structure", "authoringStrategy": "generated-model", "count": 1,
+      "description": "废弃矿车维修棚，开放通行，斜屋顶、机械管线与维修设施融为一体。",
+      "generationPrompt": "Isolated open-front abandoned industrial mining repair shelter as one connected structure, sturdy steel posts, pitched corrugated roof with damaged edges, partial sandstone side walls, wall-mounted pipes, hanging mechanical service arm and cable reels. Open central floor for circulation. Hand-painted PBR dusty sandstone, worn dark iron framing, muted rust orange roof accents, aged bolts and chipped paint. Cohesive wasteland science fiction architecture, detailed substantial construction, no vehicles, people or surrounding terrain."
+    },
+    {
+      "id": "MiningTruck", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "报废重型矿车，车轮、驾驶室与货斗具有工业细节。",
+      "generationPrompt": "Isolated complete abandoned heavy quarry haul truck, large rugged tires, armored cab with dark windows, substantial rear dump bed, exposed mechanical axles, bent front grille and worn side access steps. Grounded wheels, recognizable mining machinery silhouette. Hand-painted PBR dusty sandstone body, worn dark iron chassis, muted rust orange safety markings, chipped edges and caked dust. Original industrial wasteland science fiction game art, believable mechanical details, no cargo or surroundings."
+    },
+    {
+      "id": "MiningCrane", "kind": "structure", "authoringStrategy": "generated-model", "count": 1,
+      "description": "采矿场主地标，工业起重机的横梁、吊索与基座。",
+      "generationPrompt": "Isolated complete industrial quarry gantry crane, substantial twin steel support towers, long trussed crossbeam, mechanical hoist carriage with hanging cable and hook, access ladder and weathered base plates. Stable grounded supports with open span beneath. Hand-painted PBR worn dark iron steel, muted rust orange hazard accents and sandstone dust, detailed rivets, cables and chipped edges. Coherent original wasteland mining architecture, no vehicles or terrain."
+    },
+    {
+      "id": "Warehouse", "kind": "structure", "authoringStrategy": "generated-model", "count": 1,
+      "description": "仓储区独立货运仓库，敞开大门及可穿行内部。",
+      "generationPrompt": "Isolated abandoned industrial quarry warehouse shell, broad open loading doorway with clear empty circulation, thick steel frame, partial corrugated roof, damaged side cladding, sandstone concrete lower walls and exterior pipework. Hand-painted PBR dusty sandstone, worn dark iron, muted rust orange safety accents, detailed panels and bolts, aged chipped surfaces. Complete connected building, visually substantial industrial wasteland architecture, no furniture, vehicles or surrounding terrain."
+    },
+    {
+      "id": "ReactorPlant", "kind": "structure", "authoringStrategy": "generated-model", "count": 1,
+      "description": "最终反应堆厂房，高耸烟囱、门框、开放入口与工业轮廓。",
+      "generationPrompt": "Isolated tall abandoned industrial science-fiction reactor plant shell, heavy angular metal building, high exhaust stacks, wide open front entrance with visible empty interior, exterior coolant pipes, upper maintenance ledges and ladder, solid foundation. Hand-painted PBR worn dark iron, dusty sandstone panels and restrained rust orange accents, detailed layered architecture, grime and chipped edges. Distinct imposing wasteland quarry landmark, no landscape or characters."
+    },
+    {
+      "id": "Generator", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "任务发电机，散热格栅、管线、机械开关和电力线圈。",
+      "generationPrompt": "Isolated original industrial mining power generator, solid grounded skid frame, armored motor casing, large ventilation grilles, twin cylindrical coils, connected coolant pipes, mechanical switch box with small cyan status window. Hand-painted PBR dusty sandstone casing, worn dark iron mechanics, muted rust orange markings, fine chipped paint and scratches. Clear interaction face and readable substantial sci-fi machinery, no ground patch or surrounding objects."
+    },
+    {
+      "id": "CargoContainer", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "可复用钢制货运集装箱与掩体。",
+      "generationPrompt": "Isolated complete heavy industrial quarry cargo container, corrugated steel walls, substantial beveled corner posts, shut double doors with latch bars, inset panel seams and transport lifting points, flat grounded bottom. Hand-painted PBR dusty sandstone and worn dark iron, restrained rust orange hazard marks, chipped edges, dark recesses and scratches. Cohesive detailed original wasteland game prop, no cargo, platform or scenery."
+    },
+    {
+      "id": "FuelBarrel", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "可爆油桶，圆柱形钢制桶身、加固圈及危险标记。",
+      "generationPrompt": "Isolated industrial quarry fuel drum, cylindrical worn steel body, reinforced circular ribs, sealed lid with threaded cap, flat grounded base and clear rust orange hazard panel. Hand-painted PBR dusty sandstone paint, worn dark iron exposed edges, dents, grime, believable fine scratches. Original coherent wasteland game art, complete object, no fire, stand or scenery."
+    },
+    {
+      "id": "LootChest", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "机械战利品箱，可分离铰链顶盖和锁扣。",
+      "generationPrompt": "Isolated heavy industrial science fiction loot chest, substantial beveled metal storage body, distinct hinged upper lid and mechanical locking latches, recessed small cyan power lock, grounded bottom skid feet. Hand-painted PBR dusty sandstone armor, dark worn iron framing, muted rust orange accents, detailed bolts, seams and chipped edges. Clear separate lid boundary for runtime opening motion, no contents, stand or scenery."
+    },
+    {
+      "id": "Cartridge", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "有真实轮廓的枪弹弹壳，供退壳使用。",
+      "generationPrompt": "Isolated single spent rifle brass cartridge casing, hollow cylindrical open neck, tapered shoulder, thicker circular rim and recessed primer at base. Complete small mechanical object with realistic proportions. Hand-painted PBR tarnished warm brass, fine machined rings and subtle scratches, cohesive stylized industrial wasteland art, no bullet, pedestal or surroundings."
+    },
+    {
+      "id": "EnergyBolt", "kind": "prop", "authoringStrategy": "generated-model", "count": 1,
+      "description": "机器人可躲避攻击弹体，有金属外壳与内核。",
+      "generationPrompt": "Isolated original industrial science fiction projectile, elongated pointed dark iron dart shell, three recessed longitudinal fins, tiny cyan energy core visible through narrow vents, compact substantial mechanical silhouette. Hand-painted PBR worn dark iron, sandstone dust, rust orange markings, detailed beveled edges. Single complete projectile, no trail, flame, pedestal or scenery."
+    }
+  ],
+  "composition": {
+    "description": "资产库分组展示，每个独立原型完整可检视，具有统一材质细节密度；运行时实际地图约80x100米，四区布局另由Kotlin管理。原型不相互遮挡。HeroRifle、ChargerRobot、SandstoneRock作为首批风格样板，其余资产延续相同标准。",
+    "relationships": ["同类道具在游戏场景复用同一个原型", "枪械与敌人采用清晰机械零件边界，应用侧检查实际网格后制作关节动作"]
+  }
+}

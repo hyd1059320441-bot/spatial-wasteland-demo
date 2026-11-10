@@ -1,0 +1,21 @@
+serializedVersion: 2
+toolsConfig:
+  CurrentToolTypeID: 1
+  CurrentCoordTypeID: 0
+  CurrentAbsorbTypeID: 0
+camerasConfig:
+  - Guid: e353c1d3-5b96-48c2-bf1c-43d461f14e37
+    Name: WastelandV2Assets
+    Path: Sources/Scenes/WastelandV2Assets.usda
+    Pos:
+      x: 0
+      y: 0.6
+      z: 1
+    Rotation:
+      x: -0.2669336
+      y: -0
+      z: -0
+      w: 0.96371496
+    RoamRadius: 1.1661904
+customConfig:
+  []

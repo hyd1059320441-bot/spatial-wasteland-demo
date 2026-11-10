@@ -1,0 +1,1148 @@
+#usda 1.0
+(
+    customLayerData = {
+        string Copyright = "Copyright 2022 - 2024 PICO. All rights reserved."
+        string RuntimeVersion = "Runtime V6.1.0.0.rls.25"
+        string Version = "Spatial Editor V6.1.8"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Batch_000", "CombatDroneV8", "AssaultRobotV8", "SniperRobotV8", "ShieldRobotV8", "RepairFuelStationV8", "ShippingContainerV8", "HeavyGunnerV8", "ServiceTruckV8", "ServiceTruckV8_1", "ShippingContainerV8_1", "HeavyGunnerV9", "HeavyGunnerV9_1", "ShieldRobotV9"]
+    def Xform "Batch_000"
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Cube "CeramicFront" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/CeramicFront/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (10.5, 3.75, 0.75)
+            float3 xformOp:translate = (0, 0.595, 1.02)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "b253a3c7-303e-49dc-8421-d7d73c807fbb"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/CeramicFront/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.89, 0.84, 0.72)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.88
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "GuardFrontRight" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/GuardFrontRight/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.9, 5.75, 0.9)
+            float3 xformOp:translate = (1.25, 0.725, 1.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "3ce7b476-805d-4523-bc58-94c15261fd8a"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/GuardFrontRight/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.82, 0.31, 0.095)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.08
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.84
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "PowerBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/PowerBase/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (14, 1.1, 12)
+            float3 xformOp:translate = (0, 0.11, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "ffe68157-68d7-4737-9323-8c91d6d4849e"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/PowerBase/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "CeramicRear" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/CeramicRear/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (10.5, 3.75, 0.75)
+            float3 xformOp:translate = (0, 0.595, -1.02)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "35e1b073-7d16-4677-b0f0-c1379d09f70c"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/CeramicRear/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.89, 0.84, 0.72)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.88
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "BraceRear" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/BraceRear/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (13, 0.7, 0.8)
+            float3 xformOp:translate = (0, 1.23, -1.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "0cfaab75-d1cb-41f6-a48a-1d364ac6898b"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/BraceRear/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinRear0" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinRear0/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (-0.85, 0.6, -1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "0d6e58ee-d8a8-42a9-ab63-dd8f3a496924"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinRear0/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinRear1" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinRear1/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (-0.51, 0.6, -1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "81bbbb42-2d37-416e-83fb-3c2e6349828b"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinRear1/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinRear2" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinRear2/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (-0.17, 0.6, -1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "b25cf6a0-6763-49ce-b5d0-19501b9688be"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinRear2/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinRear3" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinRear3/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (0.17, 0.6, -1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "3aaa6ec4-14ec-48d1-bda5-583d2da3fa55"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinRear3/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinRear4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinRear4/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (0.51, 0.6, -1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "e365aff3-4fd1-4e28-ac0b-3a3fe2cc05fa"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinRear4/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinRear5" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinRear5/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (0.85, 0.6, -1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "a83d343f-5ebd-48ce-b7a6-1bc1e621f415"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinRear5/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "GuardRearLeft" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/GuardRearLeft/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.9, 5.75, 0.9)
+            float3 xformOp:translate = (-1.25, 0.725, -1.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "987d5076-009c-4846-a983-df9b578ee525"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/GuardRearLeft/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.82, 0.31, 0.095)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.08
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.84
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "GuardRearRight" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/GuardRearRight/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.9, 5.75, 0.9)
+            float3 xformOp:translate = (1.25, 0.725, -1.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "24ec1998-cad5-4c7e-8956-74235b27c782"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/GuardRearRight/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.82, 0.31, 0.095)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.08
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.84
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "BraceFront" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/BraceFront/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (13, 0.7, 0.8)
+            float3 xformOp:translate = (0, 1.23, 1.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "9eb4100c-53c7-47ec-9887-208311db3f5f"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/BraceFront/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinFront0" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinFront0/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (-0.85, 0.6, 1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "aa54d87b-3a34-4984-9bfd-cc5c76d12048"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinFront0/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinFront1" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinFront1/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (-0.51, 0.6, 1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "4c4c1108-c72a-453a-a6f1-f71afbdd0e03"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinFront1/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinFront2" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinFront2/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (-0.17, 0.6, 1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "dd45d415-abee-4f31-ab6a-c6e2b9233ff4"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinFront2/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinFront3" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinFront3/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (0.17, 0.6, 1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "7f8bac78-bc7b-444b-9942-fda5e6beeb0d"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinFront3/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinFront4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinFront4/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (0.51, 0.6, 1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "d9ffa483-bc72-4012-8194-1039c46eefbf"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinFront4/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "FinFront5" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/FinFront5/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.1, 3.25, 0.4)
+            float3 xformOp:translate = (0.85, 0.6, 1.09)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "be84508c-a28e-4762-b4bd-1422dd0ae59a"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/FinFront5/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.24, 0.37, 0.41)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.15
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.82
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+
+        def Cube "GuardFrontLeft" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            float3[] extent = [(-0.1, -0.1, -0.1), (0.1, 0.1, 0.1)]
+            rel material:binding = </Root/Batch_000/GuardFrontLeft/DefaultMaterial> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double size = 0.20000000298023224
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.9, 5.75, 0.9)
+            float3 xformOp:translate = (-1.25, 0.725, 1.04)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial" (
+                customData = {
+                    bool applyToneMapping = 1
+                    string blendingMode = "OPAQUE"
+                    string cullingMode = "BACK"
+                    bool depthTest = 1
+                    bool depthWrite = 1
+                    string materialType = "SHADER_GRAPH"
+                    float opacityThreshold = 0
+                    string shaderGraphGuid = "906bd6c7-7617-42ae-8b1a-5bdb4e3388af"
+                }
+            )
+            {
+                token outputs:mtlx:surface.connect = </Root/Batch_000/GuardFrontLeft/DefaultMaterial/PreviewSurface.outputs:out>
+                token outputs:spatial:vertex
+                float2 ui:nodegraph:subgraphOutputs:pos = (377.25, 102.75)
+
+                def Shader "PreviewSurface"
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    color3f inputs:diffuseColor = (0.82, 0.31, 0.095)
+                    float inputs:diffuseOpacity = 1
+                    float inputs:metallic = 0.08
+                    float inputs:opacityThreshold = 0
+                    float inputs:roughness = 0.84
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (93.5, 102.75)
+                    int ui:nodegraph:node:stackingOrder = 15
+                }
+            }
+        }
+    }
+
+    def "CombatDroneV8" (
+        prepend references = @../AI-Asset/CombatDroneV8_1.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (2.6458678, 2.6458678, 2.6458678)
+        float3 xformOp:translate = (4, 1.8, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "AssaultRobotV8" (
+        prepend references = @../AI-Asset/AssaultRobotV8_1.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-4, 0, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "SniperRobotV8" (
+        prepend references = @../AI-Asset/SniperRobotV8_1.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (2, 0, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ShieldRobotV8" (
+        prepend references = @../AI-Asset/ShieldRobotV8.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (0.11111111, 0.11111111, 0.11111111)
+        float3 xformOp:translate = (0, 0, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "RepairFuelStationV8" (
+        prepend references = @../AI-Asset/RepairFuelStationV8.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-5, 0, -4.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ShippingContainerV8" (
+        prepend references = @../AI-Asset/ShippingContainerV8.usdz@
+    )
+    {
+    }
+
+    def "HeavyGunnerV8" (
+        prepend references = @../AI-Asset/HeavyGunnerV8.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-2, 0, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ServiceTruckV8" (
+        prepend references = @../AI-Asset/ServiceTruckV8.usdz@
+    )
+    {
+    }
+
+    def "ServiceTruckV8_1" (
+        prepend references = @../AI-Asset/ServiceTruckV8_1.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (0.9271024, 0.9271024, 0.9271024)
+        float3 xformOp:translate = (7.5, 0, -4.5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "ShippingContainerV8_1" (
+        prepend references = @../AI-Asset/ShippingContainerV8_4.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1.0925791, 0.9965385, 0.9914778)
+        float3 xformOp:translate = (0, 0, -5)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "HeavyGunnerV9" (
+        prepend references = @../AI-Asset/HeavyGunnerV9_2.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (0.82, 0.82, 0.82)
+        float3 xformOp:translate = (-2, 0, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "HeavyGunnerV9_1" (
+        prepend references = @../AI-Asset/HeavyGunnerV9_3.usdz@
+    )
+    {
+    }
+
+    def "ShieldRobotV9" (
+        prepend references = @../AI-Asset/ShieldRobotV9_2.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0) (
+            customData = {
+                float3 euler = (0, 0, 0)
+            }
+        )
+        float3 xformOp:scale = (1.0833334, 1.0833334, 1.0833334)
+        float3 xformOp:translate = (0, 0, 4)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+
